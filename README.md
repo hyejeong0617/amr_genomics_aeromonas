@@ -219,7 +219,7 @@ Place downloaded files under `data/raw/` before running the analysis notebooks.
 | Project | Domain | Type | Status |
 |---|---|---|---|
 | **This repo** | Microbial genomics · food safety | WGS pipeline · Python analysis · Streamlit | ✅ Live |
-| [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Complete |
+| [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Live |
 | [foodborne_outbreaks_eda](https://github.com/hyejeong0617/foodborne_outbreaks_eda) | Food safety surveillance | EDA · entity normalisation · Streamlit | ✅ Live |
 
 **The three projects form a connected portfolio** — analysing the food safety problem at three different scales: molecular genomics (this repo), population-level surveillance (foodborne EDA), and real-time EU regulatory signal (RASFF ML).
