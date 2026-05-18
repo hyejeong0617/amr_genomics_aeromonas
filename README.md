@@ -196,6 +196,7 @@ streamlit run streamlit_app.py
 
 Steps 05–06 also use web-based tools. URLs and thresholds are documented in `pipeline/README_pipeline.md`.
 
+*Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
 ---
 
 ## 📂 Data Access
@@ -251,15 +252,11 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 
 ## 📬 Contact
 
-<<<<<<< HEAD
 **Hye-Jeong Lee** — PhD · Food Microbiology & Data Science
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hye--Jeong%20Lee-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/hyejeong-lee)
 [![GitHub](https://img.shields.io/badge/GitHub-hyejeong0617-181717?logo=github&logoColor=white)](https://github.com/hyejeong0617)
 
 *Open to Scientific Data Analyst and Regulatory Intelligence roles (Germany / Remote).*
-=======
-*Feel free to reach out with questions or collaboration ideas.*
->>>>>>> 2c40706c195f64b5813bf8f3abe6d5aea376133c
 
-*Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
+
