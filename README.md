@@ -5,7 +5,7 @@
 [![Publication](https://img.shields.io/badge/DOI-10.3389%2Ffmicb.2023.1175304-blue)](https://doi.org/10.3389/fmicb.2023.1175304)
 [![NCBI BioProject](https://img.shields.io/badge/NCBI-PRJNA877469-green)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA877469)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](#️-streamlit-application)
+[![Streamlit](https://amrgenomicsaeromonas.streamlit.app/)](#️-streamlit-application)
 [![Journal](https://img.shields.io/badge/Frontiers%20in%20Microbiology-2023-orange)](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1175304)
 
 ---
@@ -18,9 +18,7 @@ Bioinformatics pipeline and downstream Python analysis from a peer-reviewed WGS 
 
 ## 🖥️ Streamlit Application
 
-> 🚧 **Deployment coming soon** — the interactive data explorer will be live on Streamlit Cloud. To run locally now, see [Setup](#️-setup-and-run) below.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#️-setup-and-run)
+[![Open in Streamlit](https://amrgenomicsaeromonas.streamlit.app/)]
 
 The app provides an interactive explorer for the WGS dataset: species distribution, AMR gene presence/absence matrix, virulence factor heatmap, MGE burden per strain, and case-study views for the two key AMR–MGE co-localisation findings.
 
