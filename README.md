@@ -243,9 +243,8 @@ Place downloaded files under `data/raw/` before running the analysis notebooks.
 
 ---
 
-**Hyejeong (Hayley) Lee**  
-Ph.D. Biotechnology — Microbial Genomics & Quantitative Biology (NTNU, 2023)  
-Data Science & ML (Ironhack Bootcamp, 2025)  
-[github.com/hyejeong0617](https://github.com/hyejeong0617) · hyejeong0617@gmail.com
+## 📬 Contact
+
+*Feel free to reach out with questions or collaboration ideas.*
 
 *Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
