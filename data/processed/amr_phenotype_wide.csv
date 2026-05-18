@@ -1,0 +1,80 @@
+source,year,isolate_id,species_id,MDR,Ampicillin AMP10,Cefotaxime CTX30,Ciprofloxacin CIP1,Doxycycline DO30,Erythromycin  EM15,Florfenicol  FEC30,Gentamycin  GM10,Imipenem IPM10,Mecillinam MEL10,Meropenem MEM10,Oxolinic acid OA,Tetracycline TE30,Tobramycin TOB30,Trimethoprim/sulfamethoxazole  STX 25,ceftriaxone CRO30
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,R,S,S,S,R,S,S,S,S,S,S,S,S,S,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,R,S,S,S,S,S,S,R,S,S,S,S,S,S,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Oysters,2019.0,OY1,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY2,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY3,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY4,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY5,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY52,A. media,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY53,A. media,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY54,A. media,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY55,A.salmonicida,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,S
+Oysters,2019.0,OY56,A.salmonicida,1,R,S,S,S,R,R,S,I,S,S,I,S,S,S,S
+Oysters,2019.0,OY57,A.salmonicida,1,R,S,S,S,R,R,S,I,S,S,I,S,S,S,S
+Oysters,2019.0,OY58,A.salmonicida,1,R,S,S,S,R,R,S,I,S,S,I,S,S,S,S
+Oysters,2019.0,OY59,A.salmonicida,1,R,S,S,S,R,R,S,R,S,R,I,S,S,S,S
+Oysters,2019.0,OY6,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY60,A.salmonicida,1,R,S,S,S,R,R,S,I,S,S,I,S,I,S,S
+Oysters,2019.0,OY61,A.salmonicida,0,R,S,S,S,R,S,S,I,S,S,I,S,I,S,S
+Oysters,2019.0,OY7,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Oysters,2019.0,OY8,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Retail sushi,2015.0,A505,A. caviae,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,A533,A. dhakensis,1,R,S,S,S,S,S,S,R,S,S,R,S,S,S,S
+Retail sushi,2015.0,A536,A. dhakensis,1,R,S,S,S,S,S,S,R,S,S,R,S,S,S,S
+Retail sushi,2015.0,A537,A. hydrophila,1,R,S,S,S,R,S,S,S,S,S,R,S,S,S,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,R,S,S,S,S,S,S,S,S,S,R,S,S,S,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,R,S,S,S,S,S,S,S,S,S,S,S,S,I,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU10,A. media ?,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU12,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU14,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,I,S,S,S,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,I,S,S,S,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,R,R,S,S,R,R,S,S,S,S,I,S,S,S,I
+Retail sushi,2019.0,SU3,A. rivipollensis,1,R,R,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU4,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU5,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU6,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU7,A. rivipollensis,1,R,S,S,S,R,R,S,S,S,S,R,S,S,S,I
+Retail sushi,2019.0,SU8,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,R,S,S,S,I
+Salmon loins,2019.0,SL19,A.salmonicida,1,R,S,S,S,R,S,S,R,S,S,S,S,S,S,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,R,S,S,S,R,S,S,R,S,S,S,S,S,S,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,R,S,S,S,R,S,S,R,S,S,S,S,S,S,S
+Scallops,2019.0,SC42,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Scallops,2019.0,SC43,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Scallops,2019.0,SC44,A. rivipollensis,1,R,I,S,S,R,R,S,S,S,S,I,S,S,S,I
+Scallops,2019.0,SC45,A.salmonicida,1,R,S,S,S,R,S,S,R,S,S,S,S,S,S,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,R,S,S,S,S,S,S,S,S,S,R,S,S,S,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,R,S,S,S,S,S,S,S,S,S,S,S,S,S,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,R,S,S,S,S,S,S,I,S,S,S,S,S,S,S

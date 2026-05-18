@@ -1,0 +1,19 @@
+VF_category,functional_group
+Msh type IV pili,Adherence
+Tap type IV pili,Adherence
+Flp type IV,Adherence
+Lateral flagella,Motility
+Polar flagella,Motility
+T2SS,Secretion
+T3SS,Secretion
+T6SS,Secretion
+aerA/act,Toxin
+ast,Toxin
+ahh1,Toxin
+hlyA,Toxin
+hemIII,Toxin
+th,Toxin
+RTX,Toxin
+toxA,Toxin
+capsule,Immune evasion
+O-antigen,Immune evasion

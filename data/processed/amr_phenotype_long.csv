@@ -1,0 +1,1186 @@
+source,year,isolate_id,species_id,MDR,antibiotic,abx_class,zone_diameter,phenotype
+Retail sushi,2015.0,SU2,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU2,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,32,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,44,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,37,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,39,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Oxolinic acid OA,Quinolones,32,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Doxycycline DO30,Tetracylines ,24,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Imipenem IPM10,Carbapenemems,20,I
+Retail sushi,2015.0,SU2,A. salmonicida,0,Meropenem MEM10,Carbapenemems,37,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,17,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+Retail sushi,2015.0,SU2,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,24,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU4-2,A. caviae,0,Mecillinam MEL10,Beta-lactams,28,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,ceftriaxone CRO30,Cephalosporins ,30,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Ciprofloxacin CIP1,Quinolones,31,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Doxycycline DO30,Tetracylines ,21,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Meropenem MEM10,Carbapenemems,36,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Tobramycin TOB30,Aminoglycosides ,18,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Erythromycin  EM15,Macrolides,14,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Florfenicol  FEC30,Amphenicols,29,S
+Retail sushi,2015.0,SU4-2,A. caviae,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,14,I
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Cefotaxime CTX30,Cephalosporins ,41,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,ceftriaxone CRO30,Cephalosporins ,36,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Ciprofloxacin CIP1,Quinolones,40,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Doxycycline DO30,Tetracylines ,28,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Tetracycline TE30,Tetracylines ,32,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Imipenem IPM10,Carbapenemems,22,I
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Meropenem MEM10,Carbapenemems,29,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Erythromycin  EM15,Macrolides,19,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Florfenicol  FEC30,Amphenicols,35,S
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,29,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU12,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,43,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,39,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,39,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Oxolinic acid OA,Quinolones,35,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Doxycycline DO30,Tetracylines ,25,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Tetracycline TE30,Tetracylines ,31,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Imipenem IPM10,Carbapenemems,28,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,31,S
+Retail sushi,2015.0,SU12,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Mecillinam MEL10,Beta-lactams,29,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Cefotaxime CTX30,Cephalosporins ,44,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,ceftriaxone CRO30,Cephalosporins ,37,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Ciprofloxacin CIP1,Quinolones,39,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Doxycycline DO30,Tetracylines ,27,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Tetracycline TE30,Tetracylines ,32,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Imipenem IPM10,Carbapenemems,28,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Erythromycin  EM15,Macrolides,21,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Mecillinam MEL10,Beta-lactams,29,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Cefotaxime CTX30,Cephalosporins ,38,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,ceftriaxone CRO30,Cephalosporins ,38,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Ciprofloxacin CIP1,Quinolones,37,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Oxolinic acid OA,Quinolones,33,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Doxycycline DO30,Tetracylines ,25,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Imipenem IPM10,Carbapenemems,24,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Meropenem MEM10,Carbapenemems,29,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Gentamycin  GM10,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Florfenicol  FEC30,Amphenicols,35,S
+Retail sushi,2015.0,SU14-3,A. bestarium,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,31,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,45,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,45,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,40,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Oxolinic acid OA,Quinolones,35,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Doxycycline DO30,Tetracylines ,25,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Imipenem IPM10,Carbapenemems,22,I
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Meropenem MEM10,Carbapenemems,35,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,23,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,29,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,38,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,32,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,38,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Doxycycline DO30,Tetracylines ,24,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,27,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,39,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,44,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,40,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Imipenem IPM10,Carbapenemems,33,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Meropenem MEM10,Carbapenemems,38,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU38-1,A. media ?,0,Mecillinam MEL10,Beta-lactams,28,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Cefotaxime CTX30,Cephalosporins ,30,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,ceftriaxone CRO30,Cephalosporins ,29,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Ciprofloxacin CIP1,Quinolones,41,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Oxolinic acid OA,Quinolones,35,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Doxycycline DO30,Tetracylines ,29,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Tetracycline TE30,Tetracylines ,32,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Imipenem IPM10,Carbapenemems,33,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Meropenem MEM10,Carbapenemems,37,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Erythromycin  EM15,Macrolides,15,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Florfenicol  FEC30,Amphenicols,31,S
+Retail sushi,2015.0,SU38-1,A. media ?,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,31,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,39,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,40,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,38,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Doxycycline DO30,Tetracylines ,27,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Tetracycline TE30,Tetracylines ,31,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Imipenem IPM10,Carbapenemems,32,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Meropenem MEM10,Carbapenemems,39,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,35,S
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,28,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,34,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,39,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,37,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Imipenem IPM10,Carbapenemems,20,I
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Meropenem MEM10,Carbapenemems,25,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,23,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,27,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,28,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,33,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,32,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,35,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Oxolinic acid OA,Quinolones,32,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Imipenem IPM10,Carbapenemems,33,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Meropenem MEM10,Carbapenemems,34,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,33,S
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,34,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,48,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,44,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,43,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Oxolinic acid OA,Quinolones,37,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Doxycycline DO30,Tetracylines ,21,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Tetracycline TE30,Tetracylines ,18,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Imipenem IPM10,Carbapenemems,32,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Meropenem MEM10,Carbapenemems,39,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,37,S
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,31,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,38,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,36,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,41,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Imipenem IPM10,Carbapenemems,22,I
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Erythromycin  EM15,Macrolides,19,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,30,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,31,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,40,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,36,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,38,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Oxolinic acid OA,Quinolones,32,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Doxycycline DO30,Tetracylines ,24,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Imipenem IPM10,Carbapenemems,38,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Meropenem MEM10,Carbapenemems,40,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,33,S
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Mecillinam MEL10,Beta-lactams,32,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Cefotaxime CTX30,Cephalosporins ,41,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,ceftriaxone CRO30,Cephalosporins ,44,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Ciprofloxacin CIP1,Quinolones,43,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Oxolinic acid OA,Quinolones,38,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Doxycycline DO30,Tetracylines ,30,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Tetracycline TE30,Tetracylines ,32,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Imipenem IPM10,Carbapenemems,35,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Meropenem MEM10,Carbapenemems,41,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Florfenicol  FEC30,Amphenicols,37,S
+Retail sushi,2015.0,SU56-1,A. bestarium,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,30,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Mecillinam MEL10,Beta-lactams,31,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Cefotaxime CTX30,Cephalosporins ,42,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,ceftriaxone CRO30,Cephalosporins ,45,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Ciprofloxacin CIP1,Quinolones,40,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Oxolinic acid OA,Quinolones,36,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Doxycycline DO30,Tetracylines ,29,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Tetracycline TE30,Tetracylines ,32,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Imipenem IPM10,Carbapenemems,23,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Gentamycin  GM10,Aminoglycosides ,26,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,30,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Cefotaxime CTX30,Cephalosporins ,35,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,ceftriaxone CRO30,Cephalosporins ,35,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Ciprofloxacin CIP1,Quinolones,36,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Doxycycline DO30,Tetracylines ,28,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Imipenem IPM10,Carbapenemems,23,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Gentamycin  GM10,Aminoglycosides ,19,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Tobramycin TOB30,Aminoglycosides ,18,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Florfenicol  FEC30,Amphenicols,35,S
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Mecillinam MEL10,Beta-lactams,34,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Cefotaxime CTX30,Cephalosporins ,38,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,ceftriaxone CRO30,Cephalosporins ,37,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Ciprofloxacin CIP1,Quinolones,38,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Oxolinic acid OA,Quinolones,36,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Doxycycline DO30,Tetracylines ,27,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Tetracycline TE30,Tetracylines ,25,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Meropenem MEM10,Carbapenemems,36,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Erythromycin  EM15,Macrolides,18,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Florfenicol  FEC30,Amphenicols,37,S
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,29,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Mecillinam MEL10,Beta-lactams,32,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Cefotaxime CTX30,Cephalosporins ,43,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,ceftriaxone CRO30,Cephalosporins ,41,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Ciprofloxacin CIP1,Quinolones,40,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Oxolinic acid OA,Quinolones,34,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Doxycycline DO30,Tetracylines ,24,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Tetracycline TE30,Tetracylines ,31,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Meropenem MEM10,Carbapenemems,33,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Florfenicol  FEC30,Amphenicols,35,S
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Retail sushi,2015.0,A505,A. caviae,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,A505,A. caviae,0,Mecillinam MEL10,Beta-lactams,25,S
+Retail sushi,2015.0,A505,A. caviae,0,Cefotaxime CTX30,Cephalosporins ,31,S
+Retail sushi,2015.0,A505,A. caviae,0,ceftriaxone CRO30,Cephalosporins ,29,S
+Retail sushi,2015.0,A505,A. caviae,0,Ciprofloxacin CIP1,Quinolones,33,S
+Retail sushi,2015.0,A505,A. caviae,0,Oxolinic acid OA,Quinolones,31,S
+Retail sushi,2015.0,A505,A. caviae,0,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2015.0,A505,A. caviae,0,Tetracycline TE30,Tetracylines ,26,S
+Retail sushi,2015.0,A505,A. caviae,0,Imipenem IPM10,Carbapenemems,31,S
+Retail sushi,2015.0,A505,A. caviae,0,Meropenem MEM10,Carbapenemems,34,S
+Retail sushi,2015.0,A505,A. caviae,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,A505,A. caviae,0,Tobramycin TOB30,Aminoglycosides ,19,S
+Retail sushi,2015.0,A505,A. caviae,0,Erythromycin  EM15,Macrolides,15,S
+Retail sushi,2015.0,A505,A. caviae,0,Florfenicol  FEC30,Amphenicols,30,S
+Retail sushi,2015.0,A505,A. caviae,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,A533,A. dhakensis,1,Mecillinam MEL10,Beta-lactams,31,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Cefotaxime CTX30,Cephalosporins ,33,S
+Retail sushi,2015.0,A533,A. dhakensis,1,ceftriaxone CRO30,Cephalosporins ,26,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Ciprofloxacin CIP1,Quinolones,27,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Oxolinic acid OA,Quinolones,0,R
+Retail sushi,2015.0,A533,A. dhakensis,1,Doxycycline DO30,Tetracylines ,26,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Imipenem IPM10,Carbapenemems,15,R
+Retail sushi,2015.0,A533,A. dhakensis,1,Meropenem MEM10,Carbapenemems,23,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Gentamycin  GM10,Aminoglycosides ,22,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Tobramycin TOB30,Aminoglycosides ,22,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Erythromycin  EM15,Macrolides,17,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Florfenicol  FEC30,Amphenicols,34,S
+Retail sushi,2015.0,A533,A. dhakensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,A536,A. dhakensis,1,Mecillinam MEL10,Beta-lactams,26,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Cefotaxime CTX30,Cephalosporins ,28,S
+Retail sushi,2015.0,A536,A. dhakensis,1,ceftriaxone CRO30,Cephalosporins ,27,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Ciprofloxacin CIP1,Quinolones,25,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Oxolinic acid OA,Quinolones,0,R
+Retail sushi,2015.0,A536,A. dhakensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Tetracycline TE30,Tetracylines ,26,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Imipenem IPM10,Carbapenemems,15,R
+Retail sushi,2015.0,A536,A. dhakensis,1,Meropenem MEM10,Carbapenemems,25,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Tobramycin TOB30,Aminoglycosides ,19,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Erythromycin  EM15,Macrolides,16,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Florfenicol  FEC30,Amphenicols,33,S
+Retail sushi,2015.0,A536,A. dhakensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,24,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,A537,A. hydrophila,1,Mecillinam MEL10,Beta-lactams,30,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Cefotaxime CTX30,Cephalosporins ,39,S
+Retail sushi,2015.0,A537,A. hydrophila,1,ceftriaxone CRO30,Cephalosporins ,40,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Ciprofloxacin CIP1,Quinolones,31,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Oxolinic acid OA,Quinolones,14,R
+Retail sushi,2015.0,A537,A. hydrophila,1,Doxycycline DO30,Tetracylines ,21,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Tetracycline TE30,Tetracylines ,17,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Imipenem IPM10,Carbapenemems,24,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Gentamycin  GM10,Aminoglycosides ,21,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Tobramycin TOB30,Aminoglycosides ,20,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2015.0,A537,A. hydrophila,1,Florfenicol  FEC30,Amphenicols,36,S
+Retail sushi,2015.0,A537,A. hydrophila,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,27,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2015.0,A539,A. rivipollensis,0,Mecillinam MEL10,Beta-lactams,27,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Cefotaxime CTX30,Cephalosporins ,31,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,ceftriaxone CRO30,Cephalosporins ,34,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Oxolinic acid OA,Quinolones,21,R
+Retail sushi,2015.0,A539,A. rivipollensis,0,Doxycycline DO30,Tetracylines ,26,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Imipenem IPM10,Carbapenemems,30,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Meropenem MEM10,Carbapenemems,35,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Gentamycin  GM10,Aminoglycosides ,20,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Erythromycin  EM15,Macrolides,15,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Florfenicol  FEC30,Amphenicols,31,S
+Retail sushi,2015.0,A539,A. rivipollensis,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,25,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,23,I
+Retail sushi,2019.0,SU1,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Oxolinic acid OA,Quinolones,21,R
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Retail sushi,2019.0,SU1,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,23,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,22,R
+Retail sushi,2019.0,SU2,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,18,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Retail sushi,2019.0,SU2,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,22,R
+Retail sushi,2019.0,SU3,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,27,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Oxolinic acid OA,Quinolones,21,R
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,23,R
+Retail sushi,2019.0,SU3,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU4,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Oxolinic acid OA,Quinolones,24,R
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,24,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU4,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU5,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Oxolinic acid OA,Quinolones,23,R
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,24,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Retail sushi,2019.0,SU5,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Oxolinic acid OA,Quinolones,24,R
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU6,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Oxolinic acid OA,Quinolones,21,R
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,26,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Retail sushi,2019.0,SU7,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,23,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,24,I
+Retail sushi,2019.0,SU8,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,30,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,31,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Retail sushi,2019.0,SU8,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU9,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Oxolinic acid OA,Quinolones,21,R
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,26,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,23,R
+Retail sushi,2019.0,SU9,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Retail sushi,2019.0,SU10,A. media ?,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU10,A. media ?,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU10,A. media ?,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU10,A. media ?,1,ceftriaxone CRO30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU10,A. media ?,1,Ciprofloxacin CIP1,Quinolones,30,S
+Retail sushi,2019.0,SU10,A. media ?,1,Oxolinic acid OA,Quinolones,24,R
+Retail sushi,2019.0,SU10,A. media ?,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU10,A. media ?,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU10,A. media ?,1,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2019.0,SU10,A. media ?,1,Meropenem MEM10,Carbapenemems,32,S
+Retail sushi,2019.0,SU10,A. media ?,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU10,A. media ?,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU10,A. media ?,1,Erythromycin  EM15,Macrolides,10,R
+Retail sushi,2019.0,SU10,A. media ?,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU10,A. media ?,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Oxolinic acid OA,Quinolones,23,R
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Retail sushi,2019.0,SU11,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU12,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,24,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Oxolinic acid OA,Quinolones,24,R
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,22,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,26,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU12,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU13,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,21,I
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Oxolinic acid OA,Quinolones,22,R
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,27,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,22,R
+Retail sushi,2019.0,SU13,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,30,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,27,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Retail sushi,2019.0,SU14,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,23,I
+Retail sushi,2019.0,SU15,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,26,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Oxolinic acid OA,Quinolones,24,R
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU15,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,23,I
+Retail sushi,2019.0,SU16,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,30,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,25,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,29,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,18,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU16,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Retail sushi,2019.0,SU17,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,25,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,30,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,24,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,30,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,29,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Erythromycin  EM15,Macrolides,12,R
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Retail sushi,2019.0,SU17,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,27,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Retail sushi,2019.0,SU18,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY1,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,22,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Oysters,2019.0,OY1,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY1,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Oxolinic acid OA,Quinolones,28,I
+Oysters,2019.0,OY1,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,24,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY1,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY1,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,23,R
+Oysters,2019.0,OY1,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY2,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Oysters,2019.0,OY2,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY2,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Oxolinic acid OA,Quinolones,27,I
+Oysters,2019.0,OY2,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,25,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,27,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Oysters,2019.0,OY2,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY2,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Oysters,2019.0,OY2,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY3,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,23,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY3,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY3,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,27,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Oxolinic acid OA,Quinolones,27,I
+Oysters,2019.0,OY3,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,26,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,27,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY3,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY3,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,25,R
+Oysters,2019.0,OY3,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY4,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,22,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY4,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY4,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Oxolinic acid OA,Quinolones,27,I
+Oysters,2019.0,OY4,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,25,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY4,A. rivipollensis,1,Erythromycin  EM15,Macrolides,12,R
+Oysters,2019.0,OY4,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Oysters,2019.0,OY4,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY5,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY5,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY5,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,26,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Oysters,2019.0,OY5,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,24,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY5,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY5,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,24,R
+Oysters,2019.0,OY5,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY6,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,22,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY6,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,21,I
+Oysters,2019.0,OY6,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,27,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY6,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,24,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY6,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY6,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,22,R
+Oysters,2019.0,OY6,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,18,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY7,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,21,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY7,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY7,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY7,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,27,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,28,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY7,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY7,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,20,R
+Oysters,2019.0,OY7,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY8,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY8,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY8,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,29,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Oysters,2019.0,OY8,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,25,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,27,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,27,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Oysters,2019.0,OY8,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY8,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,19,R
+Oysters,2019.0,OY8,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,18,S
+Oysters,2019.0,OY52,A. media,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY52,A. media,1,Mecillinam MEL10,Beta-lactams,20,S
+Oysters,2019.0,OY52,A. media,1,Cefotaxime CTX30,Cephalosporins ,24,I
+Oysters,2019.0,OY52,A. media,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY52,A. media,1,Ciprofloxacin CIP1,Quinolones,30,S
+Oysters,2019.0,OY52,A. media,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY52,A. media,1,Doxycycline DO30,Tetracylines ,22,S
+Oysters,2019.0,OY52,A. media,1,Tetracycline TE30,Tetracylines ,25,S
+Oysters,2019.0,OY52,A. media,1,Imipenem IPM10,Carbapenemems,25,S
+Oysters,2019.0,OY52,A. media,1,Meropenem MEM10,Carbapenemems,27,S
+Oysters,2019.0,OY52,A. media,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY52,A. media,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Oysters,2019.0,OY52,A. media,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY52,A. media,1,Florfenicol  FEC30,Amphenicols,24,R
+Oysters,2019.0,OY52,A. media,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Oysters,2019.0,OY53,A. media,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY53,A. media,1,Mecillinam MEL10,Beta-lactams,21,S
+Oysters,2019.0,OY53,A. media,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Oysters,2019.0,OY53,A. media,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY53,A. media,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY53,A. media,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY53,A. media,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY53,A. media,1,Tetracycline TE30,Tetracylines ,26,S
+Oysters,2019.0,OY53,A. media,1,Imipenem IPM10,Carbapenemems,26,S
+Oysters,2019.0,OY53,A. media,1,Meropenem MEM10,Carbapenemems,30,S
+Oysters,2019.0,OY53,A. media,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY53,A. media,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY53,A. media,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY53,A. media,1,Florfenicol  FEC30,Amphenicols,25,R
+Oysters,2019.0,OY53,A. media,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,19,S
+Oysters,2019.0,OY54,A. media,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY54,A. media,1,Mecillinam MEL10,Beta-lactams,21,S
+Oysters,2019.0,OY54,A. media,1,Cefotaxime CTX30,Cephalosporins ,24,I
+Oysters,2019.0,OY54,A. media,1,ceftriaxone CRO30,Cephalosporins ,22,I
+Oysters,2019.0,OY54,A. media,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY54,A. media,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY54,A. media,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY54,A. media,1,Tetracycline TE30,Tetracylines ,26,S
+Oysters,2019.0,OY54,A. media,1,Imipenem IPM10,Carbapenemems,26,S
+Oysters,2019.0,OY54,A. media,1,Meropenem MEM10,Carbapenemems,28,S
+Oysters,2019.0,OY54,A. media,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY54,A. media,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Oysters,2019.0,OY54,A. media,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY54,A. media,1,Florfenicol  FEC30,Amphenicols,23,R
+Oysters,2019.0,OY54,A. media,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Scallops,2019.0,SC42,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,23,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,25,I
+Scallops,2019.0,SC42,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,21,I
+Scallops,2019.0,SC42,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,26,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Oxolinic acid OA,Quinolones,26,I
+Scallops,2019.0,SC42,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,23,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,25,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,29,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Scallops,2019.0,SC42,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Scallops,2019.0,SC42,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,23,R
+Scallops,2019.0,SC42,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Scallops,2019.0,SC43,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,20,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,24,I
+Scallops,2019.0,SC43,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,21,I
+Scallops,2019.0,SC43,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,26,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Oxolinic acid OA,Quinolones,25,I
+Scallops,2019.0,SC43,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,25,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Scallops,2019.0,SC43,A. rivipollensis,1,Erythromycin  EM15,Macrolides,10,R
+Scallops,2019.0,SC43,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,26,R
+Scallops,2019.0,SC43,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,20,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Ampicillin AMP10,Beta-lactams,0,R
+Scallops,2019.0,SC44,A. rivipollensis,1,Mecillinam MEL10,Beta-lactams,22,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Cefotaxime CTX30,Cephalosporins ,23,I
+Scallops,2019.0,SC44,A. rivipollensis,1,ceftriaxone CRO30,Cephalosporins ,21,I
+Scallops,2019.0,SC44,A. rivipollensis,1,Ciprofloxacin CIP1,Quinolones,27,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Oxolinic acid OA,Quinolones,28,I
+Scallops,2019.0,SC44,A. rivipollensis,1,Doxycycline DO30,Tetracylines ,27,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Tetracycline TE30,Tetracylines ,28,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Imipenem IPM10,Carbapenemems,26,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Meropenem MEM10,Carbapenemems,30,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Scallops,2019.0,SC44,A. rivipollensis,1,Erythromycin  EM15,Macrolides,11,R
+Scallops,2019.0,SC44,A. rivipollensis,1,Florfenicol  FEC30,Amphenicols,22,R
+Scallops,2019.0,SC44,A. rivipollensis,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Salmon loins,2019.0,SL19,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,25,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,30,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,28,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,32,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Oxolinic acid OA,Quinolones,30,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Doxycycline DO30,Tetracylines ,24,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Tetracycline TE30,Tetracylines ,29,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Imipenem IPM10,Carbapenemems,15,R
+Salmon loins,2019.0,SL19,A.salmonicida,1,Meropenem MEM10,Carbapenemems,24,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Erythromycin  EM15,Macrolides,11,R
+Salmon loins,2019.0,SL19,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,30,S
+Salmon loins,2019.0,SL19,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Salmon loins,2019.0,SL21,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,25,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,28,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,26,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,32,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Oxolinic acid OA,Quinolones,30,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Doxycycline DO30,Tetracylines ,25,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Tetracycline TE30,Tetracylines ,30,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Imipenem IPM10,Carbapenemems,16,R
+Salmon loins,2019.0,SL21,A.salmonicida,1,Meropenem MEM10,Carbapenemems,26,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Erythromycin  EM15,Macrolides,10,R
+Salmon loins,2019.0,SL21,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,30,S
+Salmon loins,2019.0,SL21,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+Oysters,2019.0,OY55,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY55,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,25,S
+Oysters,2019.0,OY55,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,24,I
+Oysters,2019.0,OY55,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,25,S
+Oysters,2019.0,OY55,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,30,S
+Oysters,2019.0,OY55,A.salmonicida,1,Oxolinic acid OA,Quinolones,27,I
+Oysters,2019.0,OY55,A.salmonicida,1,Doxycycline DO30,Tetracylines ,21,S
+Oysters,2019.0,OY55,A.salmonicida,1,Tetracycline TE30,Tetracylines ,29,S
+Oysters,2019.0,OY55,A.salmonicida,1,Imipenem IPM10,Carbapenemems,24,S
+Oysters,2019.0,OY55,A.salmonicida,1,Meropenem MEM10,Carbapenemems,28,S
+Oysters,2019.0,OY55,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY55,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY55,A.salmonicida,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY55,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,26,R
+Oysters,2019.0,OY55,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Oysters,2019.0,OY56,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY56,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,24,S
+Oysters,2019.0,OY56,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,27,S
+Oysters,2019.0,OY56,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,23,S
+Oysters,2019.0,OY56,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,30,S
+Oysters,2019.0,OY56,A.salmonicida,1,Oxolinic acid OA,Quinolones,26,I
+Oysters,2019.0,OY56,A.salmonicida,1,Doxycycline DO30,Tetracylines ,20,S
+Oysters,2019.0,OY56,A.salmonicida,1,Tetracycline TE30,Tetracylines ,26,S
+Oysters,2019.0,OY56,A.salmonicida,1,Imipenem IPM10,Carbapenemems,22,I
+Oysters,2019.0,OY56,A.salmonicida,1,Meropenem MEM10,Carbapenemems,27,S
+Oysters,2019.0,OY56,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,18,S
+Oysters,2019.0,OY56,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY56,A.salmonicida,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY56,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,25,R
+Oysters,2019.0,OY56,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Oysters,2019.0,OY57,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY57,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,22,S
+Oysters,2019.0,OY57,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Oysters,2019.0,OY57,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,25,S
+Oysters,2019.0,OY57,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,27,S
+Oysters,2019.0,OY57,A.salmonicida,1,Oxolinic acid OA,Quinolones,25,I
+Oysters,2019.0,OY57,A.salmonicida,1,Doxycycline DO30,Tetracylines ,22,S
+Oysters,2019.0,OY57,A.salmonicida,1,Tetracycline TE30,Tetracylines ,26,S
+Oysters,2019.0,OY57,A.salmonicida,1,Imipenem IPM10,Carbapenemems,21,I
+Oysters,2019.0,OY57,A.salmonicida,1,Meropenem MEM10,Carbapenemems,26,S
+Oysters,2019.0,OY57,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY57,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,16,S
+Oysters,2019.0,OY57,A.salmonicida,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY57,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,25,R
+Oysters,2019.0,OY57,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Oysters,2019.0,OY58,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY58,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,22,S
+Oysters,2019.0,OY58,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,27,S
+Oysters,2019.0,OY58,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,27,S
+Oysters,2019.0,OY58,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY58,A.salmonicida,1,Oxolinic acid OA,Quinolones,25,I
+Oysters,2019.0,OY58,A.salmonicida,1,Doxycycline DO30,Tetracylines ,22,S
+Oysters,2019.0,OY58,A.salmonicida,1,Tetracycline TE30,Tetracylines ,26,S
+Oysters,2019.0,OY58,A.salmonicida,1,Imipenem IPM10,Carbapenemems,21,I
+Oysters,2019.0,OY58,A.salmonicida,1,Meropenem MEM10,Carbapenemems,26,S
+Oysters,2019.0,OY58,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY58,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,17,S
+Oysters,2019.0,OY58,A.salmonicida,1,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY58,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,24,R
+Oysters,2019.0,OY58,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Oysters,2019.0,OY59,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY59,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,24,S
+Oysters,2019.0,OY59,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Oysters,2019.0,OY59,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,24,S
+Oysters,2019.0,OY59,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY59,A.salmonicida,1,Oxolinic acid OA,Quinolones,29,I
+Oysters,2019.0,OY59,A.salmonicida,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY59,A.salmonicida,1,Tetracycline TE30,Tetracylines ,28,S
+Oysters,2019.0,OY59,A.salmonicida,1,Imipenem IPM10,Carbapenemems,11,R
+Oysters,2019.0,OY59,A.salmonicida,1,Meropenem MEM10,Carbapenemems,16,R
+Oysters,2019.0,OY59,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,15,S
+Oysters,2019.0,OY59,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Oysters,2019.0,OY59,A.salmonicida,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY59,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,26,R
+Oysters,2019.0,OY59,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Oysters,2019.0,OY60,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY60,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,24,S
+Oysters,2019.0,OY60,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,30,S
+Oysters,2019.0,OY60,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,33,S
+Oysters,2019.0,OY60,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY60,A.salmonicida,1,Oxolinic acid OA,Quinolones,29,I
+Oysters,2019.0,OY60,A.salmonicida,1,Doxycycline DO30,Tetracylines ,23,S
+Oysters,2019.0,OY60,A.salmonicida,1,Tetracycline TE30,Tetracylines ,24,S
+Oysters,2019.0,OY60,A.salmonicida,1,Imipenem IPM10,Carbapenemems,22,I
+Oysters,2019.0,OY60,A.salmonicida,1,Meropenem MEM10,Carbapenemems,26,S
+Oysters,2019.0,OY60,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Oysters,2019.0,OY60,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,14,I
+Oysters,2019.0,OY60,A.salmonicida,1,Erythromycin  EM15,Macrolides,10,R
+Oysters,2019.0,OY60,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,25,R
+Oysters,2019.0,OY60,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,21,S
+Oysters,2019.0,OY61,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Oysters,2019.0,OY61,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,23,S
+Oysters,2019.0,OY61,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,34,S
+Oysters,2019.0,OY61,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,35,S
+Oysters,2019.0,OY61,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,28,S
+Oysters,2019.0,OY61,A.salmonicida,0,Oxolinic acid OA,Quinolones,28,I
+Oysters,2019.0,OY61,A.salmonicida,0,Doxycycline DO30,Tetracylines ,22,S
+Oysters,2019.0,OY61,A.salmonicida,0,Tetracycline TE30,Tetracylines ,24,S
+Oysters,2019.0,OY61,A.salmonicida,0,Imipenem IPM10,Carbapenemems,22,I
+Oysters,2019.0,OY61,A.salmonicida,0,Meropenem MEM10,Carbapenemems,27,S
+Oysters,2019.0,OY61,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,17,S
+Oysters,2019.0,OY61,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,13,I
+Oysters,2019.0,OY61,A.salmonicida,0,Erythromycin  EM15,Macrolides,11,R
+Oysters,2019.0,OY61,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,27,S
+Oysters,2019.0,OY61,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,24,S
+Scallops,2019.0,SC45,A.salmonicida,1,Ampicillin AMP10,Beta-lactams,0,R
+Scallops,2019.0,SC45,A.salmonicida,1,Mecillinam MEL10,Beta-lactams,25,S
+Scallops,2019.0,SC45,A.salmonicida,1,Cefotaxime CTX30,Cephalosporins ,28,S
+Scallops,2019.0,SC45,A.salmonicida,1,ceftriaxone CRO30,Cephalosporins ,26,S
+Scallops,2019.0,SC45,A.salmonicida,1,Ciprofloxacin CIP1,Quinolones,34,S
+Scallops,2019.0,SC45,A.salmonicida,1,Oxolinic acid OA,Quinolones,33,S
+Scallops,2019.0,SC45,A.salmonicida,1,Doxycycline DO30,Tetracylines ,23,S
+Scallops,2019.0,SC45,A.salmonicida,1,Tetracycline TE30,Tetracylines ,29,S
+Scallops,2019.0,SC45,A.salmonicida,1,Imipenem IPM10,Carbapenemems,16,R
+Scallops,2019.0,SC45,A.salmonicida,1,Meropenem MEM10,Carbapenemems,26,S
+Scallops,2019.0,SC45,A.salmonicida,1,Gentamycin  GM10,Aminoglycosides ,16,S
+Scallops,2019.0,SC45,A.salmonicida,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Scallops,2019.0,SC45,A.salmonicida,1,Erythromycin  EM15,Macrolides,10,R
+Scallops,2019.0,SC45,A.salmonicida,1,Florfenicol  FEC30,Amphenicols,29,S
+Scallops,2019.0,SC45,A.salmonicida,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,22,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Ampicillin AMP10,Beta-lactams,0,R
+Salmon loins,2019.0,SL22,A.bestiarum,1,Mecillinam MEL10,Beta-lactams,24,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Cefotaxime CTX30,Cephalosporins ,26,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,ceftriaxone CRO30,Cephalosporins ,25,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Ciprofloxacin CIP1,Quinolones,37,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Oxolinic acid OA,Quinolones,32,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Doxycycline DO30,Tetracylines ,25,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Tetracycline TE30,Tetracylines ,30,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Imipenem IPM10,Carbapenemems,13,R
+Salmon loins,2019.0,SL22,A.bestiarum,1,Meropenem MEM10,Carbapenemems,23,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Gentamycin  GM10,Aminoglycosides ,17,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Tobramycin TOB30,Aminoglycosides ,15,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Erythromycin  EM15,Macrolides,11,R
+Salmon loins,2019.0,SL22,A.bestiarum,1,Florfenicol  FEC30,Amphenicols,30,S
+Salmon loins,2019.0,SL22,A.bestiarum,1,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,23,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Ampicillin AMP10,Beta-lactams,0,R
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Mecillinam MEL10,Beta-lactams,30,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Cefotaxime CTX30,Cephalosporins ,39,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,ceftriaxone CRO30,Cephalosporins ,41,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Ciprofloxacin CIP1,Quinolones,39,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Oxolinic acid OA,Quinolones,33,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Doxycycline DO30,Tetracylines ,28,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Tetracycline TE30,Tetracylines ,28,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Imipenem IPM10,Carbapenemems,25,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Meropenem MEM10,Carbapenemems,35,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Tobramycin TOB30,Aminoglycosides ,18,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Erythromycin  EM15,Macrolides,13,R
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Florfenicol  FEC30,Amphenicols,33,S
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,29,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,36,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,35,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,35,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Doxycycline DO30,Tetracylines ,23,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Imipenem IPM10,Carbapenemems,17,R
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Meropenem MEM10,Carbapenemems,26,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,22,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,19,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+Inletwater (SPE),2018.0,LJP318,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,28,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Ampicillin AMP10,Beta-lactams,0,R
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Mecillinam MEL10,Beta-lactams,33,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Cefotaxime CTX30,Cephalosporins ,47,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,ceftriaxone CRO30,Cephalosporins ,45,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Ciprofloxacin CIP1,Quinolones,38,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Oxolinic acid OA,Quinolones,33,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Doxycycline DO30,Tetracylines ,27,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Tetracycline TE30,Tetracylines ,30,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Imipenem IPM10,Carbapenemems,36,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Meropenem MEM10,Carbapenemems,30,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Gentamycin  GM10,Aminoglycosides ,21,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Tobramycin TOB30,Aminoglycosides ,23,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Erythromycin  EM15,Macrolides,14,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Florfenicol  FEC30,Amphenicols,36,S
+Inletwater (SPE),2018.0,LJP325,A.bestiarum,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,31,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,37,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,34,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,36,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Oxolinic acid OA,Quinolones,34,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Doxycycline DO30,Tetracylines ,27,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Imipenem IPM10,Carbapenemems,21,I
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Meropenem MEM10,Carbapenemems,27,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,23,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,21,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Erythromycin  EM15,Macrolides,18,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+Inletwater (SPE),2018.0,LJP407,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,30,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,41,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,41,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,36,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Oxolinic acid OA,Quinolones,33,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Tetracycline TE30,Tetracylines ,25,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Imipenem IPM10,Carbapenemems,21,I
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Meropenem MEM10,Carbapenemems,31,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,21,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,21,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Erythromycin  EM15,Macrolides,14,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,35,S
+gutting machine (SPE),2018.0,LJP441,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,26,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,27,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,43,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,39,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,29,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Oxolinic acid OA,Quinolones,20,R
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Doxycycline DO30,Tetracylines ,33,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Tetracycline TE30,Tetracylines ,31,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Imipenem IPM10,Carbapenemems,46,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Meropenem MEM10,Carbapenemems,41,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,25,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,27,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Erythromycin  EM15,Macrolides,29,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,32,S
+equipment in slaughterhouse (SPE),2018.0,LJP452,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,35,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,31,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,40,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,42,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,42,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Oxolinic acid OA,Quinolones,35,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Imipenem IPM10,Carbapenemems,31,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Meropenem MEM10,Carbapenemems,33,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,21,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,35,S
+fish skin (SPE),2019.0,LJP897,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,27,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,32,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,39,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,40,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,47,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Oxolinic acid OA,Quinolones,35,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Doxycycline DO30,Tetracylines ,23,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Tetracycline TE30,Tetracylines ,30,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Imipenem IPM10,Carbapenemems,21,I
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Meropenem MEM10,Carbapenemems,30,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,20,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,20,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Erythromycin  EM15,Macrolides,16,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,35,S
+fish skin (SPE),2019.0,LJP886,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,32,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,29,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,38,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,40,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,35,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Oxolinic acid OA,Quinolones,32,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Doxycycline DO30,Tetracylines ,26,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Tetracycline TE30,Tetracylines ,28,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Imipenem IPM10,Carbapenemems,32,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Meropenem MEM10,Carbapenemems,34,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,20,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,18,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Erythromycin  EM15,Macrolides,14,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,34,S
+fish skin (SPE),2019.0,LJP872,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,24,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Ampicillin AMP10,Beta-lactams,0,R
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Mecillinam MEL10,Beta-lactams,32,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Cefotaxime CTX30,Cephalosporins ,32,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,ceftriaxone CRO30,Cephalosporins ,28,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Ciprofloxacin CIP1,Quinolones,39,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Oxolinic acid OA,Quinolones,34,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Doxycycline DO30,Tetracylines ,25,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Tetracycline TE30,Tetracylines ,29,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Imipenem IPM10,Carbapenemems,24,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Meropenem MEM10,Carbapenemems,31,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Gentamycin  GM10,Aminoglycosides ,21,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Tobramycin TOB30,Aminoglycosides ,22,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Erythromycin  EM15,Macrolides,14,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Florfenicol  FEC30,Amphenicols,32,S
+fish skin (SPE),2019.0,LJP900,A.salmonicida,0,Trimethoprim/sulfamethoxazole  STX 25,Amphenicols,27,S

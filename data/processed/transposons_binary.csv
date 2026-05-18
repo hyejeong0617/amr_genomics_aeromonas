@@ -1,0 +1,10 @@
+IS_family,subgroup,MGE_type,SU4,A533,A536,A537,A539,SU3,SU9,SU15,SC42,OY1,OY52,SU6,SL22,SU58-3,LP308,SU2,SL19,SL21,SC45,OY56,OY59,LP441
+IS3,IS3,Composite transposon (cn),0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+IS3,IS3,Composite transposon (cn),0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+IS3,IS407,Composite transposon (cn),0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+IS481,IS407,Composite transposon (cn),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+IS4,ISH8,Composite transposon (cn),0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+IS4,ISH8,Composite transposon (cn),0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+IS5,IS5,Composite transposon (cn),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+IS200/IS605,IS1341,Composite transposon (cn),0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tn5053,ISAs11,Unit transposon (Tn),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

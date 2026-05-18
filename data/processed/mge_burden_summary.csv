@@ -1,0 +1,23 @@
+strain,species,is_types,is_copies,has_Tn,has_MITE
+LP308,A. piscicola,0,0,0,0
+OY52,A. media,1,1,0,0
+A533,A. dhakensis,2,2,0,1
+A536,A. dhakensis,2,2,0,1
+SU6,A. bestiarum,1,2,1,0
+SU2,A. salmonicida,1,2,0,0
+SC45,A. salmonicida,2,2,0,0
+SU9,A. rivipollensis,1,3,1,0
+OY1,A. rivipollensis,1,3,1,0
+SU15,A. rivipollensis,1,3,1,0
+SU3,A. rivipollensis,1,3,1,0
+SC42,A. rivipollensis,3,4,1,0
+OY56,A. salmonicida,5,5,1,0
+OY59,A. salmonicida,6,6,0,1
+SL22,A. bestiarum,6,7,1,0
+SU58-3,A. bestiarum,7,7,1,1
+SL19,A. salmonicida,7,7,1,0
+SL21,A. salmonicida,9,9,0,0
+A537,A. hydrophila,9,9,1,0
+LP441,A. salmonicida,9,11,0,0
+SU4,A. caviae,15,15,1,1
+A539,A. rivipollensis,11,15,1,1

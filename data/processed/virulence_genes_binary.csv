@@ -1,0 +1,288 @@
+VFclass,VF_name,gene,ATCC7966,A449,A533,A537,SU4,A539,SU3,OY1,SC42,OY52,SU6,SU58-3,SL22,LJP308,SL19,SL21,OY56,OY59,SC45,SU2,LJP441
+Adherence,Flp type IV pili,flp1,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpA,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpB,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpC,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpD,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpE,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpF,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpG,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpH,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpI,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpJ,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpK,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Flp type IV pili,flpL,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Lateral flagella,flgC,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,flgE,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,flgI,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,flgJ,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,fliF,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,fliG,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,fliP,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafB,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafC,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafE,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafF,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafK,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafS,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafT,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafU,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lafX,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,1
+Adherence,Lateral flagella,lfgA,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgB,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgF,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgG,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgH,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgK,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgL,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgM,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfgN,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfhA,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfhB,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiE,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiH,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiI,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiJ,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiM,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiN,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiQ,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,lfiR,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Lateral flagella,maf-5,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshA,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshB,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshC,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshD,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshF,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshG,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshI1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshI,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshJ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshK,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshL,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshN,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshP,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Mannose-sensitive hemagglutinin (Msh) pilus,mshQ,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Polar flagella,Undetermined,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,Undetermined,1,1,1,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,1
+Adherence,Polar flagella,cheA-2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheB-2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheR-3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheV,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheW,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheY,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,cheZ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flaA,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flaB,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flaG,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flaH,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flaJ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgC,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgD,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgH,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgI,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgJ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgK,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgL,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flgN,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flhA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flhB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flhF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flhG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliH,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliI,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliJ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliK,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliL,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliN,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliP,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliQ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,fliR,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flmD,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flmH,1,1,1,0,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flrA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flrB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,flrC,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,maf-1,1,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,maf-2,1,1,1,0,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,motX,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,motY,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,nueA,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,nueB,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,pomA2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,pomA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,pomB2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Polar flagella,pomB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapA,1,1,0,1,0,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,1
+Adherence,Tap type IV pili,tapB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapC,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapD,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapN,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapO,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapP,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapQ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapT,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapU,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapV,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapW,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapY1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tapY2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Tap type IV pili,tppA,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tppB,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tppC,0,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tppD,0,1,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tppE,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Tap type IV pili,tppF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Adherence,Type I fimbriae,fimA,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Type I fimbriae,fimC,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Type I fimbriae,fimD,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Type I fimbriae,fimE,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Type I fimbriae,fimF,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1
+Adherence,Stf(Salmonella),stfC,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Stf(Salmonella),stfD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Agf/Csg(Salmonella),csgG,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Bcf(Salmonella),bcfA,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Bcf(Salmonella),bcfB,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Accessory colonization factor(Vibrio),acfC,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Adherence,Curli fibers(Escherichia),csgG,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T2SS,exeA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeB,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeC,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeD,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeF,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeH,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeI,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeJ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeK,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeL,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeM,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,exeN,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T2SS,tapD,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T3SS,acr1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,acr2,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,acrG,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,acrH,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,acrR,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,acrV,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,aexT,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,aopB,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,aopD,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,aopH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,aopN,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,aopO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,aopX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,ascB,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascC,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascD,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascE,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascF,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascG,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascH,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascI,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascJ,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascK,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascL,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascN,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascO,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,ascQ,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascR,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascS,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascT,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascU,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascV,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascX,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ascY,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,ati1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,ati2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,exsA,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,exsB,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,exsC,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,exsD,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,exsE,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+Secretion system,T3SS,sycH,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,sycO,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T3SS,sycX,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+Secretion system,T6SS,Undetermined,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsA,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0
+Secretion system,T6SS,atsB,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0
+Secretion system,T6SS,atsC,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+Secretion system,T6SS,atsD,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsG,1,1,1,1,0,0,1,1,0,1,1,0,0,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsH,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsI,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsJ,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsK,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsL,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsP,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsQ,1,0,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,atsS,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,clpV1,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,dotU,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,hcp1,1,0,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1
+Secretion system,T6SS,hcp,1,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Secretion system,T6SS,vasH,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,vasK/atsR,1,0,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,vgrG1,1,0,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+Secretion system,T6SS,vgrG2,1,0,1,1,0,0,1,1,0,1,1,1,1,1,1,1,0,0,1,1,1
+Secretion system,T6SS,vgrG3,1,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,0,1,1,1,1
+Secretion system,T6SS,vipA,1,1,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0
+Secretion system,T6SS,vipB,1,0,1,1,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1
+Secretion system,Hcp secretion island-1 encoded type VI secretion system (H-T6SS)(Pseudomonas),ppkA,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Toxin,Aerolysin AerA/Cytotoxic enterotoxin Act,aerA/act,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Toxin,Extracellular hemolysin AHH1,ahh1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+Toxin,Heat-stable cytotonic enterotoxin,ast,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,0,0
+Toxin,Hemolysin HlyA,hlyA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Toxin,Hemolysin III,Undetermined,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Toxin,The repeat in toxin (RTX),rtxA,1,0,1,1,0,0,1,1,1,0,1,1,0,0,1,1,1,0,1,1,1
+Toxin,The repeat in toxin (RTX),rtxB,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,1,1
+Toxin,The repeat in toxin (RTX),rtxC,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,1
+Toxin,The repeat in toxin (RTX),rtxD,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,0,1,1,1
+Toxin,The repeat in toxin (RTX),rtxE,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,0,1,1,1
+Toxin,The repeat in toxin (RTX),rtxH,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,1,0,1,1,1
+Toxin,Thermostable hemolysin (TH),Undetermined,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Toxin,Exotoxin A (ETA)(Pseudomonas),toxA,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,1
+Endotoxin,LPS(Bordetella),bplA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+O-antigen,LPS O-antigen (P. aeruginosa)(Pseudomonas),wbpI,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+O-antigen,O-antigen(Yersinia),cpsB,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+O-antigen,O-antigen(Yersinia),wby/L,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+O-antigen,O-antigen(Yersinia),wcaG,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),rmlA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),rmlC,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wcaJ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wecA,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wbfU,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wbfY,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wbjD/wecB,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),wecC,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Antiphagocytosis,Capsular polysaccharide(Vibrio),cpsC,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Antiphagocytosis,Capsule(Klebsiella),uge,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+Antiphagocytosis,Capsule(Enterococcus),cpsI,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Immune evasion,Polysaccharide capsule(Bacillus),gtaB,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Immune evasion,LPS(Brucella),per,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Immune evasion,Exopolysaccharide(Haemophilus),galU,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Glycosylation system,O-linked flagellar glycosylation(Campylobacter),neuB2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Serum resistance,LPS rfb locus(Klebsiella),rmlA,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Stress adaptation,Catalase-peroxidase(Mycobacterium),katG,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Iron uptake,Acinetobactin(Acinetobacter),basG,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Iron uptake,Acinetobactin(Acinetobacter),basB,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Biofilm formation,AdeFGH efflux pump/transport autoinducer(Acinetobacter),adeG,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Copper uptake,Copper exporter(Mycobacterium),ctpV,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
