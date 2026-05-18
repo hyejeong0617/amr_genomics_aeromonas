@@ -254,7 +254,7 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 
 **Hye-Jeong Lee** — PhD · Food Microbiology & Data Science
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hye--Jeong%20Lee-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/hyejeong-lee)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hye--Jeong%20Lee-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyejeong-lee-75887465/)
 [![GitHub](https://img.shields.io/badge/GitHub-hyejeong0617-181717?logo=github&logoColor=white)](https://github.com/hyejeong0617)
 
 *Open to Scientific Data Analyst and Regulatory Intelligence roles (Germany / Remote).*
