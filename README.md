@@ -225,7 +225,7 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 | Project | Domain | Type | Status |
 |---|---|---|---|
 | **This repo** | Microbial genomics · food safety | WGS pipeline · Python analysis · Streamlit | ✅ Live |
-| [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Complete |
+| [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Live |
 | [foodborne_outbreaks_eda](https://github.com/hyejeong0617/foodborne_outbreaks_eda) | Food safety surveillance | EDA · entity normalisation · Streamlit | ✅ Live |
 
 **The three projects form a connected portfolio** — analysing the food safety problem at three different scales: molecular genomics (this repo), population-level surveillance (foodborne EDA), and real-time EU regulatory signal (RASFF ML).
@@ -251,11 +251,15 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 
 ## 📬 Contact
 
+<<<<<<< HEAD
 **Hye-Jeong Lee** — PhD · Food Microbiology & Data Science
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hye--Jeong%20Lee-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/hyejeong-lee)
 [![GitHub](https://img.shields.io/badge/GitHub-hyejeong0617-181717?logo=github&logoColor=white)](https://github.com/hyejeong0617)
 
 *Open to Scientific Data Analyst and Regulatory Intelligence roles (Germany / Remote).*
+=======
+*Feel free to reach out with questions or collaboration ideas.*
+>>>>>>> 2c40706c195f64b5813bf8f3abe6d5aea376133c
 
 *Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
