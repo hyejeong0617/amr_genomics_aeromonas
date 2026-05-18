@@ -5,7 +5,7 @@
 [![Publication](https://img.shields.io/badge/DOI-10.3389%2Ffmicb.2023.1175304-blue)](https://doi.org/10.3389/fmicb.2023.1175304)
 [![NCBI BioProject](https://img.shields.io/badge/NCBI-PRJNA877469-green)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA877469)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://amrgenomicsaeromonas.streamlit.app/)](#️-streamlit-application)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amrgenomicsaeromonas.streamlit.app/)
 [![Journal](https://img.shields.io/badge/Frontiers%20in%20Microbiology-2023-orange)](https://www.frontiersin.org/articles/10.3389/fmicb.2023.1175304)
 
 ---
@@ -18,9 +18,11 @@ Bioinformatics pipeline and downstream Python analysis from a peer-reviewed WGS 
 
 ## 🖥️ Streamlit Application
 
-[![Open in Streamlit](https://amrgenomicsaeromonas.streamlit.app/)]
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amrgenomicsaeromonas.streamlit.app/)
 
-The app provides an interactive explorer for the WGS dataset: species distribution, AMR gene presence/absence matrix, virulence factor heatmap, MGE burden per strain, and case-study views for the two key AMR–MGE co-localisation findings.
+**Live app →** [amrgenomicsaeromonas.streamlit.app](https://amrgenomicsaeromonas.streamlit.app/)
+
+An interactive 4-page data explorer for the WGS dataset: the research story, species distribution + ANI heatmap, AMR gene profiles (phenotypic + genotypic), and MGE co-localisation case studies.
 
 ---
 
@@ -74,7 +76,7 @@ amr-genomics-aeromonas/
 │
 ├── data/
 │   ├── raw/                       # Supplementary tables + tool outputs
-│   └── processed/                 # Clean CSVs and images 
+│   └── processed/                 # Clean CSVs produced by 00_data_prep.ipynb
 │
 ├── streamlit_app.py               # Interactive data explorer
 ├── requirements.txt
@@ -216,7 +218,7 @@ Place downloaded files under `data/raw/` before running the analysis notebooks.
 
 | Project | Domain | Type | Status |
 |---|---|---|---|
-| **This repo** | Microbial genomics · food safety | WGS pipeline · Python analysis · Streamlit | 🚧 App coming soon |
+| **This repo** | Microbial genomics · food safety | WGS pipeline · Python analysis · Streamlit | ✅ Live |
 | [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Complete |
 | [foodborne_outbreaks_eda](https://github.com/hyejeong0617/foodborne_outbreaks_eda) | Food safety surveillance | EDA · entity normalisation · Streamlit | ✅ Live |
 
@@ -241,10 +243,9 @@ Place downloaded files under `data/raw/` before running the analysis notebooks.
 
 ---
 
-## 📬 Contact
-
-*Feel free to reach out with questions or collaboration ideas.*
-
----
+**Hyejeong (Hayley) Lee**  
+Ph.D. Biotechnology — Microbial Genomics & Quantitative Biology (NTNU, 2023)  
+Data Science & ML (Ironhack Bootcamp, 2025)  
+[github.com/hyejeong0617](https://github.com/hyejeong0617) · hyejeong0617@gmail.com
 
 *Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
