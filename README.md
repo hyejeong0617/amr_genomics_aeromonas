@@ -39,6 +39,8 @@ An interactive 4-page data explorer for the WGS dataset: the research story, spe
 | **Reproducible Python analysis** | Five notebooks reproducing all paper figures, with interactive Plotly extensions and additional analyses not in the original paper |
 | **Scientific communication** | Peer-reviewed publication; findings linked to EU food safety regulatory context |
 
+> **Press coverage:** [Nautilus Magazine](https://nautil.us/is-sushi-a-health-hazard-421668) · [IFLScience](https://www.iflscience.com/how-safe-is-the-sushi-you-eat-really-70899)
+
 ---
 
 ## 🔬 Key Findings
@@ -197,6 +199,7 @@ streamlit run streamlit_app.py
 Steps 05–06 also use web-based tools. URLs and thresholds are documented in `pipeline/README_pipeline.md`.
 
 *Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
+
 ---
 
 ## 📂 Data Access
@@ -225,11 +228,12 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 
 | Project | Domain | Type | Status |
 |---|---|---|---|
-| **This repo** | Microbial genomics · food safety | WGS pipeline · Python analysis · Streamlit | ✅ Live |
 | [rasff_risk_predictor](https://github.com/hyejeong0617/rasff_risk_predictor) | EU regulatory notifications | ML pipeline · NLP · Streamlit | ✅ Live |
-| [foodborne_outbreaks_eda](https://github.com/hyejeong0617/foodborne_outbreaks_eda) | Food safety surveillance | EDA · entity normalisation · Streamlit | ✅ Live |
+| [foodborne_outbreaks_eda](https://github.com/hyejeong0617/foodborne_outbreaks_eda) | Food safety surveillance | EDA · SQL · entity normalisation · Streamlit | ✅ Live |
+| [aeromonas-growth-predictor](https://github.com/hyejeong0617/aeromonas-growth-predictor) | Predictive microbiology · food safety | ML · GPR · SHAP · Streamlit | ✅ Live |
+| **This repo** | Microbial genomics · One Health | WGS pipeline · Python analysis · Streamlit | ✅ Live |
 
-**The three projects form a connected portfolio** — analysing the food safety problem at three different scales: molecular genomics (this repo), population-level surveillance (foodborne EDA), and real-time EU regulatory signal (RASFF ML).
+**The four projects form a connected portfolio** — analysing food safety risk at four scales: real-time EU regulatory signal (RASFF ML), population-level surveillance (foodborne EDA), growth kinetics modelling (Aeromonas predictor), and molecular genomics (this repo).
 
 ---
 
@@ -257,6 +261,4 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hyejeong%20Lee-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hyejeong-lee-75887465/)
 [![GitHub](https://img.shields.io/badge/GitHub-hyejeong0617-181717?logo=github&logoColor=white)](https://github.com/hyejeong0617)
 
-*Open to Scientific Data Analyst and Regulatory Intelligence roles (Germany / Remote).*
-
-
+*Open to Domain Data Scientist / Regulatory Data Analyst roles in food safety, pharma, and biotech — Remote / Hybrid · Germany-based.*
