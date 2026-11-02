@@ -48,7 +48,7 @@ An interactive 4-page data explorer for the WGS dataset: the research story, spe
 | Dimension | Finding |
 |---|---|
 | **Species diversity** | 8 *Aeromonas* species identified across 22 isolates — MLPA + ANI (≥96% cutoff) |
-| **AMR burden** | **57% multidrug-resistant (MDR)** across 79 isolates; MDR defined as resistance to ≥3 antibiotic classes (CLSI) |
+| **AMR burden** | **Approximately 58% multidrug-resistant (MDR)** among 79 isolates (as reported in the published paper); MDR defined as resistance to ≥3 antibiotic classes |
 | **Virulence** | >250 virulence genes characterised via VFDB; species-specific profiles resolved |
 | **Horizontal transfer risk** | *qnrS2* (quinolone resistance) on IncQ1 plasmid in *A. rivipollensis* A539 |
 | **Co-selection signal** | Tn521 + Class I integron co-localisation in *A. caviae* SU4 — mercury + antibiotic resistance co-selection implied |
@@ -136,7 +136,7 @@ The `analysis/` notebooks reproduce all major figures from the paper, with inter
 |---|---|---|
 | `00_data_prep.ipynb` | — | Parses supplementary tables (S1–S4), ANI matrix, and VF heatmap source into 14 clean DataFrames in `data/processed/` |
 | `01_species_id.ipynb` | Figure 2 (ANI heatmap) | Interactive Plotly heatmap; species boundary validation (ANI ≥ 96%); strain overview → `strain_summary.csv` |
-| `02_amr_profiling.ipynb` | Table 1; Supp. S2 | MDR distribution by species; species × antibiotic resistance heatmap; **genotype–phenotype concordance scoring** across 79 isolates |
+| `02_amr_profiling.ipynb` | Table 1; Supp. S2 | MDR distribution by species; species × antibiotic resistance heatmap; **genotype–phenotype concordance scoring** for 19 WGS strains |
 | `03_virulence_analysis.ipynb` | Figure 3 (VF heatmap) | Interactive heatmap; virulence score per strain → `virulence_scores.csv`; species-level VF category prevalence |
 | `04_mge_amr_colocalization.ipynb` | Figure 4A (A539 plasmid), Figure 4B (SU4 integron); Supp. S4 | IS family × strain distribution heatmap; **AMR gene co-occurrence network** (Jaccard); IS element burden ranking |
 
