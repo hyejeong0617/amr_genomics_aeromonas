@@ -1,4 +1,8 @@
 #!/bin/bash
+# Phase 1 provenance: illustrative repository script; execution of these exact
+# commands and historical parameters is not independently evidenced here.
+# The example list has 21 entries, while the header describes 19 representatives.
+# Historical cohort reconciliation is pending; commands are preserved unchanged.
 # ============================================================
 # 05_amr_profiling.sh — AMR gene prediction
 # ------------------------------------------------------------

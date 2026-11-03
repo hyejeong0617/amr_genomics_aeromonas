@@ -1,4 +1,8 @@
 #!/bin/bash
+# Phase 1 provenance: illustrative repository script; execution of these exact
+# commands and historical parameters is not independently evidenced here.
+# External references, alignments and MEGA settings are required; this is not
+# a complete executable reconstruction of the published phylogenetic analysis.
 # ============================================================
 # 03_mlpa.sh — Species identification: gyrB + MLPA + MEGA11
 # ------------------------------------------------------------

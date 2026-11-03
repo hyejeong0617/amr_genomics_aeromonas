@@ -1,15 +1,15 @@
 #!/bin/bash
+# Phase 1 provenance: illustrative repository script; execution of these exact
+# commands and historical parameters is not independently evidenced here.
 # ============================================================
 # 07_abricate.sh — Multi-database AMR/virulence screening
 # ------------------------------------------------------------
 # Tool   : Abricate (Seemann, https://github.com/tseemann/abricate)
-# Role   : Reference / cross-validation tool
+# Role   : Optional screening example (historical use unverified)
 #          Screens against multiple databases in one run:
 #          VFDB, NCBI, ResFinder, PlasmidFinder, CARD, ARG-ANNOT
-#          Results used to cross-check AMRFinderPlus and
-#          web-based tool outputs.
-# Paper  : Not reported as primary tool — used for internal
-#          cross-validation of AMR/virulence gene calls.
+#          May support comparisons with primary tools; archived evidence absent.
+# Paper  : Not reported in published Methods; historical use unconfirmed.
 # Input  : Assembled contigs (*.fasta) — 19 WGS strains
 # Output : Per-database result tables + summary
 # ============================================================
@@ -64,13 +64,5 @@ abricate --summary abricate_results/plasmidfinder_results.tab \
 
 echo "Summary tables written to abricate_results/"
 
-# ── Cross-validation notes ────────────────────────────────────
-# Abricate VFDB results were compared with VFanalyzer web output
-#   → confirmed virulence gene calls in Supp. Table S3
-#
-# Abricate NCBI + ResFinder results were compared with AMRFinderPlus
-#   → confirmed AMR gene calls in Table 1
-#
-# Default identity threshold in Abricate: 80%
-# Default coverage threshold in Abricate: 80%
-# (consistent with VFanalyzer 80% and ResFinder 90% thresholds)
+# Historical cross-validation and database agreement are not established here.
+# Database releases and thresholds must be recorded before any future comparison.

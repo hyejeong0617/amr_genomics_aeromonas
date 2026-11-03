@@ -1,4 +1,7 @@
 #!/bin/bash
+# Phase 1 provenance: illustrative repository script; execution of these exact
+# commands and historical parameters is not independently evidenced here.
+# Existing unresolved trimming notes below remain open; do not infer validation.
 # ============================================================
 # 01_assembly.sh — Read QC, trimming, and genome assembly
 # ------------------------------------------------------------

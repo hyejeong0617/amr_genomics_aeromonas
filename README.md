@@ -12,7 +12,7 @@
 
 > **Lee H-J, et al. (2023)**. Whole genome sequence analysis of *Aeromonas* spp. isolated from ready-to-eat seafood: antimicrobial resistance and virulence factors. *Frontiers in Microbiology*, 14:1175304.
 
-Bioinformatics pipeline and downstream Python analysis from a peer-reviewed WGS study characterising AMR, virulence factors, and mobile genetic elements (MGEs) in *Aeromonas* spp. isolated from ready-to-eat seafood in Norwegian retail markets.
+Published research on *Aeromonas* from ready-to-eat seafood and a salmon processing environment, accompanied by later Python analyses and a Streamlit explorer. The paper is the historical research record; repository scripts and exploratory extensions are not proof of a freshly reproduced research pipeline.
 
 ---
 
@@ -22,7 +22,7 @@ Bioinformatics pipeline and downstream Python analysis from a peer-reviewed WGS 
 
 **Live app →** [amrgenomicsaeromonas.streamlit.app](https://amrgenomicsaeromonas.streamlit.app/)
 
-![Dashboard Preview](assets/dashboard_preview.png)
+The saved dashboard preview is historical and is not displayed while public-facing corrections are pending deployment.
 
 An interactive 4-page data explorer for the WGS dataset: the research story, species distribution + ANI heatmap, AMR gene profiles (phenotypic + genotypic), and MGE co-localisation case studies.
 
@@ -30,13 +30,13 @@ An interactive 4-page data explorer for the WGS dataset: the research story, spe
 
 ## 📌 Overview
 
-*Aeromonas* species are emerging opportunistic pathogens increasingly associated with foodborne illness, yet they remain largely unregulated in EU food safety legislation. This project provides the first WGS-level characterisation of *Aeromonas* diversity and AMR burden in Norwegian ready-to-eat seafood — directly relevant to EFSA risk assessment and One Health AMR surveillance frameworks.
+This observational genomics study characterises species diversity, AMR and virulence-associated features in a selected isolate collection. It provides scientific context for One Health surveillance, not a population prevalence estimate, consumer risk assessment, regulatory endorsement or demonstration of transmission to humans.
 
 | Capability | What this project demonstrates |
 |---|---|
 | **Domain knowledge → analysis design** | AMR gene interpretation, MGE co-localisation logic, and ANI species boundary decisions all derived from microbiology domain expertise |
-| **Bioinformatics pipeline** | End-to-end WGS: QC → assembly → annotation → species ID → AMR + virulence profiling |
-| **Reproducible Python analysis** | Five notebooks reproducing all paper figures, with interactive Plotly extensions and additional analyses not in the original paper |
+| **Bioinformatics pipeline** | Documentation of WGS methods and illustrative commands; manual steps and historical parameters are not fully verified |
+| **Python analysis** | Five notebooks containing data preparation, Python re-visualizations and exploratory extensions; saved outputs are historical, not fresh reproducibility evidence |
 | **Scientific communication** | Peer-reviewed publication; findings linked to EU food safety regulatory context |
 
 > **Press coverage:** [Nautilus Magazine](https://nautil.us/is-sushi-a-health-hazard-421668) · [IFLScience](https://www.iflscience.com/how-safe-is-the-sushi-you-eat-really-70899)
@@ -48,13 +48,15 @@ An interactive 4-page data explorer for the WGS dataset: the research story, spe
 | Dimension | Finding |
 |---|---|
 | **Species diversity** | 8 *Aeromonas* species identified across 22 isolates — MLPA + ANI (≥96% cutoff) |
-| **AMR burden** | **Approximately 58% multidrug-resistant (MDR)** among 79 isolates (as reported in the published paper); MDR defined as resistance to ≥3 antibiotic classes |
+| **AMR burden** | **57.0% (45/79)** after corrected nine-category, R-only study-operational reclassification; all original labels agree. The paper reports approximately 58% |
 | **Virulence** | >250 virulence genes characterised via VFDB; species-specific profiles resolved |
-| **Horizontal transfer risk** | *qnrS2* (quinolone resistance) on IncQ1 plasmid in *A. rivipollensis* A539 |
-| **Co-selection signal** | Tn521 + Class I integron co-localisation in *A. caviae* SU4 — mercury + antibiotic resistance co-selection implied |
+| **Plasmid-associated resistance gene** | *qnrS2* (quinolone resistance) on IncQ1 plasmid in *A. rivipollensis* A539 |
+| **Co-selection signal** | The paper reports Tn521 + Class I integron co-localisation in *A. caviae* SU4-2. The author confirmed Tn521, correcting the preserved S4 spelling Tn512 in derived labels. Co-selection remains a hypothesis, not experimentally demonstrated |
 | **Public data** | All 22 genome assemblies deposited at NCBI: [PRJNA877469](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA877469) |
 
 ---
+
+> MDR correction note: corrected nine-category, R-only study-operational classification confirms 45/79 records (57.0%), matching all 79 original source labels. AMP is included and intermediate results are excluded; this is not a validated acquired-resistance clinical classification. The published article reports approximately 58%, preserved as historical wording rather than a computational target. A publication calculation/rounding error is the author's proposed explanation; the original calculation has not been reconstructed. See DATA_CORRECTIONS.md for the record-level comparison and definition.
 
 ## 🗂️ Repository Structure
 
@@ -71,10 +73,10 @@ amr_genomics_aeromonas/
 │   ├── 04_ani.sh                  # ANI: FastANI + ANIclustermap
 │   ├── 05_amr_profiling.sh        # AMR genes: AMRFinderPlus v3.10.45 + ResFinder v4.1
 │   ├── 06_virulence_mge.sh        # Virulence (VFDB), plasmids, MGEs, genome maps
-│   ├── 07_abricate.sh             # Multi-database cross-validation (Abricate)
+│   ├── 07_abricate.sh             # Optional multi-database screening (historical use unverified) (Abricate)
 │   └── README_pipeline.md         # Tool versions, environment setup, web tool URLs
 │
-├── analysis/                      # Downstream Python analysis — runnable notebooks
+├── analysis/                      # Later Python analyses — environment and limitations documented
 │   ├── 00_data_prep.ipynb         # Supplementary tables → clean DataFrames
 │   ├── 01_species_id.ipynb        # ANI heatmap + species boundary validation (Fig. 2)
 │   ├── 02_amr_profiling.ipynb     # Phenotypic + genotypic AMR; concordance analysis
@@ -122,7 +124,7 @@ Raw Illumina reads (2×300 bp MiSeq)
         │               MobileElementFinder v1.0.3 · Proksee
         │               → Virulence profiles · plasmid types · MGE tables
         ▼
-07_abricate.sh         Multi-database cross-validation
+07_abricate.sh         Optional multi-database screening (historical use unverified)
                         VFDB · NCBI · ResFinder · PlasmidFinder · CARD · ARG-ANNOT
 ```
 
@@ -130,15 +132,19 @@ Raw Illumina reads (2×300 bp MiSeq)
 
 ## 📊 Analysis Notebooks
 
-The `analysis/` notebooks reproduce all major figures from the paper, with interactive Plotly extensions and additional analyses not included in the original publication.
+The publication contains the original research figures. Notebook 01 re-visualizes supplied ANI values; notebook 02 manually encodes Table 1 and summarizes supplied phenotype labels. Notebook 03 uses an expanded VF matrix and is not an exact Figure 3 reproduction. Notebook 04 contains conceptual schematics inspired by Figure 4, not verified sequence-coordinate maps. Figure 1 is not reconstructed here.
 
-| Notebook | Reproduces | Extended Analysis |
+**Exploratory concordance:** notebook 02 compares manually specified strain-level rules with the same collection, treating intermediate observations as non-resistant. Rules have unverified exceptions and no independent validation. Agreement is not predictive accuracy and should not be used as a portfolio performance headline.
+
+**Phase 2 corrections (2026-11-03):** composite isolate matching (E02), reference classification (E03), and study-operational MDR recalculation (E11) are validated. E07 now has 22 unique NCBI-verified assembly mappings, including four author-confirmed aliases. E08 separates SU4’s 16 distinct IS/MITE entries from 21 table-derived copies and one separate Tn521 transposon. Only the SU4 numerical display is restored; other-strain comparisons and conceptual schematics remain hidden. No genomic-coordinate validation is claimed. See [DATA_CORRECTIONS.md](DATA_CORRECTIONS.md) for exact scope, validation, limitations and figure provenance. Original derived files are archived in `data/historical/pre_phase2_outputs.zip`; notebook inline outputs remain historical, while corrected CSVs/PNGs are current.
+
+| Notebook | Relationship to publication | Extended Analysis |
 |---|---|---|
 | `00_data_prep.ipynb` | — | Parses supplementary tables (S1–S4), ANI matrix, and VF heatmap source into 14 clean DataFrames in `data/processed/` |
-| `01_species_id.ipynb` | Figure 2 (ANI heatmap) | Interactive Plotly heatmap; species boundary validation (ANI ≥ 96%); strain overview → `strain_summary.csv` |
-| `02_amr_profiling.ipynb` | Table 1; Supp. S2 | MDR distribution by species; species × antibiotic resistance heatmap; **genotype–phenotype concordance scoring** for 19 WGS strains |
-| `03_virulence_analysis.ipynb` | Figure 3 (VF heatmap) | Interactive heatmap; virulence score per strain → `virulence_scores.csv`; species-level VF category prevalence |
-| `04_mge_amr_colocalization.ipynb` | Figure 4A (A539 plasmid), Figure 4B (SU4 integron); Supp. S4 | IS family × strain distribution heatmap; **AMR gene co-occurrence network** (Jaccard); IS element burden ranking |
+| `01_species_id.ipynb` | ANI re-visualization related to Figure 2 | Interactive Plotly heatmap; species boundary validation (ANI ≥ 96%); strain overview → `strain_summary.csv` |
+| `02_amr_profiling.ipynb` | Manual Table 1 encoding; supplied S2 labels | MDR distribution by species; species × antibiotic resistance heatmap; **genotype–phenotype concordance scoring** for 19 WGS strains |
+| `03_virulence_analysis.ipynb` | Expanded VF analysis; 22 isolates + 7 explicitly classified references | Interactive heatmap; virulence score per strain → `virulence_scores.csv`; species-level VF category prevalence |
+| `04_mge_amr_colocalization.ipynb` | Conceptual Figure 4-inspired schematics; IS5 classified consistently; SU4 IS/MITE counts reconciled at source-table level | IS family × strain distribution heatmap; **AMR gene co-occurrence network** (Jaccard); IS element burden ranking |
 
 All notebooks include cell-level comments linking code decisions to the published Methods section.
 
@@ -149,12 +155,19 @@ All notebooks include cell-level comments linking code decisions to the publishe
     → data/processed/*.csv (required by all downstream notebooks)
 
 01_species_id.ipynb
-02_amr_profiling.ipynb        ← independent; all read from data/processed/
+02_amr_profiling.ipynb        ← downstream notebooks use processed and/or raw files
 03_virulence_analysis.ipynb
 04_mge_amr_colocalization.ipynb
 ```
 
 ---
+
+
+### Phase 1 validation record — 2026-11-03
+
+Read-only inspection of `data/raw/Table_2.XLSX`, sheet `Table_S2`, found 79 data records with isolate IDs (column C) and 45 MDR labels equal to 1 (column T). All labels matched `data/processed/amr_phenotype_wide.csv` using source, year, isolate ID and species together. The verified arithmetic is 56.9620253164557%, or 57.0% to one decimal place. At Phase 1 this was a source-label check only. The subsequent E11 reclassification is documented above and in DATA_CORRECTIONS.md.
+
+Lightweight validation: Python syntax and all four Streamlit pages passed local AppTest checks. Data, saved figures, notebook code/output cells and pipeline executable commands were preserved. No full notebook run, clean dependency installation, upstream pipeline execution or deployment was performed.
 
 ## 🧰 Tech Stack
 
@@ -183,7 +196,17 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-**Bioinformatics tools** (upstream pipeline — Linux/HPC):
+**Optional notebook environment** (Python 3.10+):
+
+```bash
+python -m pip install -r requirements-analysis.txt
+cd analysis
+python -m jupyterlab
+```
+
+Open notebooks from `analysis/` so relative paths resolve. Install dependencies before use; the requirements are not a locked historical environment. No clean-environment installation or full notebook execution is claimed. Notebooks write derived files when executed; do not run all notebooks merely to launch the dashboard.
+
+**Bioinformatics tools** (documented versions/examples, not an automatic installation recipe for reproducing history):
 
 | Tool | Version | Install |
 |---|---|---|
@@ -198,7 +221,7 @@ streamlit run streamlit_app.py
 
 Steps 05–06 also use web-based tools. URLs and thresholds are documented in `pipeline/README_pipeline.md`.
 
-*Bioinformatics pipeline run on NTNU HPC infrastructure as part of the OPTiMAT project.*
+Historical execution of these exact repository scripts, the HPC environment and internal Abricate/Kraken2 checks is not independently evidenced here. See pipeline documentation for manual steps and unresolved parameters.
 
 ---
 
@@ -220,7 +243,7 @@ datasets download genome accession JAOPLB000000000 JAOPLC000000000 \
     --filename aeromonas_genomes.zip
 ```
 
-> **Note:** `data/processed/` (clean CSVs and figures) is already committed to this repository — the analysis notebooks run without any additional downloads. The NCBI download above is only needed if you want to reproduce the upstream bioinformatics pipeline from raw assemblies.
+> **Note:** Committed processed files support dashboard use; notebooks also read supplied raw tables. Dependencies are still required. The download example retrieves only two assemblies, not raw sequencing reads or the complete pipeline inputs. Full upstream reconstruction is outside this repository correction scope.
 
 ---
 

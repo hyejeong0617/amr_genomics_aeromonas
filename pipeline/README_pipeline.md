@@ -1,6 +1,6 @@
 # Bioinformatics Pipeline
 
-This directory documents the upstream WGS analysis pipeline used in:
+This directory describes published WGS methods and provides illustrative commands related to:
 
 > Lee H-J et al. (2023) *Whole genome sequence analysis of Aeromonas spp. isolated from ready-to-eat seafood: antimicrobial resistance and virulence factors.*  
 > **Frontiers in Microbiology** 14:1175304. doi: [10.3389/fmicb.2023.1175304](https://doi.org/10.3389/fmicb.2023.1175304)
@@ -39,9 +39,9 @@ Raw Illumina reads (2×300 bp MiSeq)
         │             → Virulence profiles (Fig. 3, Supp. S3)
         │             → MGE profiles (Fig. 4, Supp. S4)
         ▼
-07_abricate.sh       Abricate — multi-database cross-validation
+07_abricate.sh       Abricate — optional multi-database screening (historical use unverified)
                       VFDB · NCBI · ResFinder · PlasmidFinder · CARD
-                      → cross-check of AMR/virulence gene calls
+                      → example outputs; no archived cross-check evidence included
 ```
 
 ---
@@ -60,8 +60,7 @@ Raw Illumina reads (2×300 bp MiSeq)
 | AMRFinderPlus | v3.10.45 | `conda install -c bioconda ncbi-amrfinderplus` |
 | Abricate | latest | `conda create -n abricate abricate` (bioconda) |
 
-> **HPC environment:** Scripts were run on a Linux HPC cluster (NTNU, Norway).  
-> Conda environments were used to manage tool dependencies.
+> **Provenance limitation:** Execution of these exact scripts, the HPC/Conda environment and database versions has not been independently verified. These are not a tested end-to-end reconstruction. Assembly trimming parameters remain unconfirmed; MLPA requires external references, manual steps and missing settings files. The AMR script lists 21 strains although its header describes 19. Do not infer the historical cohort from that example list.
 
 ---
 
@@ -81,19 +80,19 @@ Steps 05 and 06 include tools that were used via web interfaces.
 
 ## Note on Abricate (step 07)
 
-Abricate was used as a **cross-validation tool** to verify AMR and virulence gene calls from the primary tools (AMRFinderPlus, ResFinder, VFanalyzer). It was not reported as a primary analysis tool in the paper, but provides a convenient way to screen against multiple databases (VFDB, NCBI, ResFinder, PlasmidFinder, CARD, ARG-ANNOT) in a single command-line run. Results were used to confirm consistency across databases.
+Abricate provides an optional multi-database screening example. It is not reported in the published Methods, and this repository contains no archived outputs establishing its historical use or agreement with the primary tools. Do not describe it as completed validation.
 
 ---
 
 ## Note on Kraken2
 
-Kraken2 was used internally as a **QC step** to verify taxonomic purity of assemblies. It is not described in the published Methods because final species identification was based on MLPA + ANI (Methods 2.2 and 2.5), which provide higher phylogenetic resolution for *Aeromonas* species boundaries.
+Historical Kraken2 QC use is unconfirmed here; no supporting run outputs are included. Published species identification uses MLPA and ANI.
 
 ---
 
 ## Downstream analysis
 
-All downstream statistical analysis and visualisation are in `/analysis/`:
+Later Python re-visualizations and exploratory analyses are in `/analysis/`; original R source and full historical execution evidence are not included:
 
 | Notebook | Content |
 |---|---|

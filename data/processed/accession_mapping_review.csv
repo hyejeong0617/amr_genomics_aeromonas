@@ -1,0 +1,5 @@
+Strain ID,Species,Isolation source,NCBI accession,NCBI strain ID,Assembly accession,BioProject,Accession status
+SU6,A. bestiarum,Retail sushi,JAOPLM000000000,SU6-2,GCA_030386355.1,PRJNA877469,Author-confirmed alias + NCBI/S1 verified
+SU4,A. caviae,Retail sushi,JAOPLN000000000,SU4-2,GCA_030386335.1,PRJNA877469,Author-confirmed alias + NCBI/S1 verified
+LJP308,A. piscicola,SPE,JAOPLU000000000,LP308,GCA_030386495.1,PRJNA877469,Author-confirmed alias + NCBI/S1 verified
+LJP441,A. salmonicida,SPE,JAOPLT000000000,LP441,GCA_030386415.1,PRJNA877469,Author-confirmed alias + NCBI/S1 verified

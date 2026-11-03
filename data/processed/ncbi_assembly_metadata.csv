@@ -1,0 +1,23 @@
+ncbi_strain_id,assembly_accession,species,wgs_master_accession,bioproject,biosample,source_url,retrieved_date
+A533,GCA_030386475.1,Aeromonas dhakensis,JAOPLS000000000,PRJNA877469,SAMN30711017,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+A536,GCA_030386395.1,Aeromonas dhakensis,JAOPLR000000000,PRJNA877469,SAMN30711018,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+A537,GCA_030386455.1,Aeromonas hydrophila,JAOPLQ000000000,PRJNA877469,SAMN30711019,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+A539,GCA_030386435.1,Aeromonas rivipollensis,JAOPLP000000000,PRJNA877469,SAMN30711020,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+LP308,GCA_030386495.1,Aeromonas piscicola,JAOPLU000000000,PRJNA877469,SAMN30711014,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+LP441,GCA_030386415.1,Aeromonas salmonicida,JAOPLT000000000,PRJNA877469,SAMN30711015,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+OY1,GCA_030386675.1,Aeromonas rivipollensis,JAOPLH000000000,PRJNA877469,SAMN30711005,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+OY52,GCA_030386655.1,Aeromonas media,JAOPLG000000000,PRJNA877469,SAMN30711006,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+OY56,GCA_030386575.1,Aeromonas salmonicida,JAOPLC000000000,PRJNA877469,SAMN30711010,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+OY59,GCA_030386535.1,Aeromonas salmonicida,JAOPLB000000000,PRJNA877469,SAMN30711011,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SC42,GCA_030386615.1,Aeromonas rivipollensis,JAOPLF000000000,PRJNA877469,SAMN30711007,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SC45,GCA_030386555.1,Aeromonas salmonicida,JAOPLW000000000,PRJNA877469,SAMN30711012,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SL19,GCA_030386635.1,Aeromonas salmonicida,JAOPLE000000000,PRJNA877469,SAMN30711008,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SL21,GCA_030386595.1,Aeromonas salmonicida,JAOPLD000000000,PRJNA877469,SAMN30711009,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SL22,GCA_030386515.1,Aeromonas bestiarum,JAOPLV000000000,PRJNA877469,SAMN30711013,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU15,GCA_030386695.1,Aeromonas rivipollensis,JAOPLI000000000,PRJNA877469,SAMN30711004,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU2,GCA_030386375.1,Aeromonas salmonicida,JAOPLO000000000,PRJNA877469,SAMN30711021,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU3,GCA_030386715.1,Aeromonas rivipollensis,JAOPLK000000000,PRJNA877469,SAMN30711002,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU4-2,GCA_030386335.1,Aeromonas caviae,JAOPLN000000000,PRJNA877469,SAMN30711022,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU58-3,GCA_030386305.1,Aeromonas bestiarum,JAOPLL000000000,PRJNA877469,SAMN30711024,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU6-2,GCA_030386355.1,Aeromonas bestiarum,JAOPLM000000000,PRJNA877469,SAMN30711023,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03
+SU9,GCA_030386755.1,Aeromonas rivipollensis,JAOPLJ000000000,PRJNA877469,SAMN30711003,https://api.ncbi.nlm.nih.gov/datasets/v2/genome/bioproject/PRJNA877469/dataset_report?page_size=100,2026-11-03

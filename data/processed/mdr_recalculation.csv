@@ -1,0 +1,80 @@
+source,year,isolate_id,species,MDR_source,resistant_class_count,resistant_classes,MDR_recalculated,matches_source
+Inletwater (SPE),2018.0,LJP308,A. piscicola,0,2,Macrolides; Penicillins,0,True
+Inletwater (SPE),2018.0,LJP318,A. salmonicida,0,2,Carbapenems; Penicillins,0,True
+Inletwater (SPE),2018.0,LJP325,A. bestiarum,0,1,Penicillins,0,True
+Inletwater (SPE),2018.0,LJP407,A. salmonicida,0,1,Penicillins,0,True
+Oysters,2019.0,OY1,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY2,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY3,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY4,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY5,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY52,A. media,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY53,A. media,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY54,A. media,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY55,A. salmonicida,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY56,A. salmonicida,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY57,A. salmonicida,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY58,A. salmonicida,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY59,A. salmonicida,1,4,Amphenicols; Carbapenems; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY6,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY60,A. salmonicida,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY61,A. salmonicida,0,2,Macrolides; Penicillins,0,True
+Oysters,2019.0,OY7,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Oysters,2019.0,OY8,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2015.0,A505,A. caviae,0,1,Penicillins,0,True
+Retail sushi,2015.0,A533,A. dhakensis,1,3,Carbapenems; Penicillins; Quinolones,1,True
+Retail sushi,2015.0,A536,A. dhakensis,1,3,Carbapenems; Penicillins; Quinolones,1,True
+Retail sushi,2015.0,A537,A. hydrophila,1,3,Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2015.0,A539,A. rivipollensis,0,2,Penicillins; Quinolones,0,True
+Retail sushi,2015.0,SU12,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU13-1,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU14-3,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU18-1,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU2,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU20-3,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU23-2,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU38-1,A. media,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU4-2,A. caviae,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU44-3,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU47-3,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU50-2,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU53-4,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU54-1,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU55-5,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU56-1,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU56-3,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU58-1,A. salmonicida,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU58-2,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU58-3,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2015.0,SU6-2,A. bestiarum,0,1,Penicillins,0,True
+Retail sushi,2019.0,SU1,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU10,A. media,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU11,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU12,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU13,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU14,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU15,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU16,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU17,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU18,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU2,A. rivipollensis,1,4,Amphenicols; Cephalosporins; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU3,A. rivipollensis,1,5,Amphenicols; Cephalosporins; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU4,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU5,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU6,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU7,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Retail sushi,2019.0,SU8,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Retail sushi,2019.0,SU9,A. rivipollensis,1,4,Amphenicols; Macrolides; Penicillins; Quinolones,1,True
+Salmon loins,2019.0,SL19,A. salmonicida,1,3,Carbapenems; Macrolides; Penicillins,1,True
+Salmon loins,2019.0,SL21,A. salmonicida,1,3,Carbapenems; Macrolides; Penicillins,1,True
+Salmon loins,2019.0,SL22,A. bestiarum,1,3,Carbapenems; Macrolides; Penicillins,1,True
+Scallops,2019.0,SC42,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Scallops,2019.0,SC43,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Scallops,2019.0,SC44,A. rivipollensis,1,3,Amphenicols; Macrolides; Penicillins,1,True
+Scallops,2019.0,SC45,A. salmonicida,1,3,Carbapenems; Macrolides; Penicillins,1,True
+equipment in slaughterhouse (SPE),2018.0,LJP452,A. salmonicida,0,2,Penicillins; Quinolones,0,True
+fish skin (SPE),2019.0,LJP872,A. salmonicida,0,1,Penicillins,0,True
+fish skin (SPE),2019.0,LJP886,A. salmonicida,0,1,Penicillins,0,True
+fish skin (SPE),2019.0,LJP897,A. salmonicida,0,1,Penicillins,0,True
+fish skin (SPE),2019.0,LJP900,A. salmonicida,0,1,Penicillins,0,True
+gutting machine (SPE),2018.0,LJP441,A. salmonicida,0,1,Penicillins,0,True

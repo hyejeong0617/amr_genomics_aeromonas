@@ -1,0 +1,18 @@
+analysis_id,ncbi_strain_id,source_sheet,source_cell,source_type,source_text,element_name,category,table_copy_count,copy_basis,label_correction
+SU4,SU4-2,Table_S4,D6,IS,ISKpn3,ISKpn3,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D9,IS,ISAs17,ISAs17,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D14,IS,ISAs20,ISAs20,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D18,IS,ISAs32,ISAs32,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D19,IS,ISAs22,ISAs22,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D22,IS,ISAs19,ISAs19,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D25,Miniature Inverted Repeat (MITE),MITEAeme1 (6),MITEAeme1,MITE,6,Explicit parenthesized count; author confirmed,
+SU4,SU4-2,Table_S4,D26,IS,ISAeme15,ISAeme15,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D28,IS,ISAeme4,ISAeme4,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D34,IS,ISAs25,ISAs25,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D35,IS5,IS5,IS5,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D39,IS,ISAs34,ISAs34,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D43,IS,ISAs27,ISAs27,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D44,IS,ISAs29,ISAs29,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D48,IS,ISAs16,ISAs16,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D52,IS,ISAs3,ISAs3,IS,1,Single unmultiplied table entry = 1; no coordinate revalidation,
+SU4,SU4-2,Table_S4,D57,Unit transposon (Tn),Tn512,Tn521,Transposon,1,Single unmultiplied table entry = 1; no coordinate revalidation,Author confirmed Tn521; raw S4 Tn512 retained

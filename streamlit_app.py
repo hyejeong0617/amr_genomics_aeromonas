@@ -12,7 +12,7 @@ import plotly.express as px
 from pathlib import Path
 
 st.set_page_config(
-    page_title="The Silent Pandemic on Your Plate",
+    page_title="Aeromonas Genomics — Research Explorer",
     page_icon="🍣",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -144,16 +144,16 @@ ABX_SHORT = {
     "Trimethoprim/sulfamethoxazole  STX 25":"STX",
 }
 ABX_CLASS = {
-    "AMP":"Beta-lactams","MEL":"Beta-lactams",
+    "AMP":"Penicillins","MEL":"Penicillins",
     "CTX":"Cephalosporins","CRO":"Cephalosporins",
     "CIP":"Quinolones","OA":"Quinolones",
     "DO":"Tetracyclines","TE":"Tetracyclines",
     "IPM":"Carbapenems","MEM":"Carbapenems",
     "GM":"Aminoglycosides","TOB":"Aminoglycosides",
-    "EM":"Macrolides","FEC":"Amphenicols","STX":"Amphenicols",
+    "EM":"Macrolides","FEC":"Amphenicols","STX":"Folate pathway inhibitors",
 }
 CLASS_COLOR = {
-    "Beta-lactams":"#E07B54","Cephalosporins":"#D4A843",
+    "Penicillins":"#E07B54","Cephalosporins":"#D4A843",
     "Quinolones":"#C4706A","Carbapenems":"#9B7BB8",
     "Tetracyclines":"#6BAF92","Aminoglycosides":"#5B8DB8",
     "Macrolides":"#7BA87B","Amphenicols":"#8AA6C4",
@@ -162,10 +162,18 @@ species_fix = {
     "A.salmonicida":"A. salmonicida","A.bestiarum":"A. bestiarum",
     "A. bestarium":"A. bestiarum","A. media ?":"A. media",
 }
+CLASS_COLOR["Folate pathway inhibitors"] = "#607D8B"
 amr_long["abx_label"] = amr_long["antibiotic"].str.strip().map(ABX_SHORT)
 amr_long["abx_class"] = amr_long["abx_label"].map(ABX_CLASS)
 amr_long["species"]   = amr_long["species_id"].replace(species_fix)
 amr_wide["species"]   = amr_wide["species_id"].replace(species_fix)
+
+# Isolate IDs are reused across years/species: never join on isolate_id alone.
+ISOLATE_KEY = ["source", "year", "isolate_id", "species"]
+assert len(amr_wide) == 79 and not amr_wide.duplicated(ISOLATE_KEY).any()
+assert not amr_long.duplicated(ISOLATE_KEY + ["abx_label"]).any()
+assert amr_long.groupby(ISOLATE_KEY).size().eq(15).all()
+
 
 # species map for ANI
 ANI_SPECIES = {
@@ -193,11 +201,11 @@ with st.sidebar:
       <div style="font-size:2rem; text-align:center;">🍣</div>
       <p style="font-size:1.15rem; font-weight:800; color:#fff;
                 margin:0.3rem 0 0.2rem; text-align:center; line-height:1.3;">
-        The Silent Pandemic
-on Your Plate
+        Aeromonas Genomics
+Research Explorer
       </p>
       <p style="font-size:0.78rem; color:#a8c8e8; text-align:center; margin:0;">
-        Antibiotic resistance in<br>ready-to-eat seafood
+        Seafood and processing-environment<br>isolate collection
       </p>
     </div>
     """, unsafe_allow_html=True)
@@ -220,7 +228,7 @@ on Your Plate
     )
     st.markdown(
         "[![Paper](https://img.shields.io/badge/📄_Paper-Open_Access-blue)](https://doi.org/10.3389/fmicb.2023.1175304)  \n"
-        "[![GitHub](https://img.shields.io/badge/💻_GitHub-Code-black)](https://github.com/hyejeong0617/amr-genomics-aeromonas)  \n"
+        "[![GitHub](https://img.shields.io/badge/💻_GitHub-Code-black)](https://github.com/hyejeong0617/amr_genomics_aeromonas)  \n"
         "[![Nautilus](https://img.shields.io/badge/🔬_Nautilus-Article-green)](https://nautil.us/is-sushi-a-health-hazard-421668)  \n"
         "[![IFLScience](https://img.shields.io/badge/🌐_IFLScience-Article-orange)](https://www.iflscience.com/how-safe-is-the-sushi-you-eat-really-70899)"
     )
@@ -231,10 +239,9 @@ on Your Plate
 # ════════════════════════════════════════════════════════════
 if page == "🍣  The Story":
 
-    st.title("🍣 Is Your Sushi Safe?")
+    st.title("🍣 Aeromonas in Seafood and Processing Environments")
     st.markdown(
-        "Sushi is one of the world's most popular foods — "
-        "but what's living inside it that you can't see?"
+        "Explore a selected isolate collection; these results do not estimate consumer risk."
     )
     st.divider()
 
@@ -243,13 +250,7 @@ if page == "🍣  The Story":
     st.markdown('<span class="section-header">🔬 From Grocery Store to Genome — Research Overview</span>',
                 unsafe_allow_html=True)
 
-    st.markdown(
-        "*Norwegian researchers bought retail sushi, salmon, oysters and scallops — "
-        "and instead of eating them, sequenced the bacteria inside. "
-        "They found* ***Aeromonas*** *strains carrying* **antibiotic-resistance genes** "
-        "*— with no visible warning sign at the grocery store.*  \n"
-        "*† AMR: the ability of a microorganism to resist antimicrobial agents (WHO, 2023)*"
-    )
+    st.markdown("The published study examined Aeromonas isolates from seafood and a salmon processing environment. Genomic findings indicate potential resistance and virulence features, not demonstrated food-to-human transmission.")
     st.write("")
 
     # HTML flexbox pipeline — large readable text
@@ -260,7 +261,7 @@ if page == "🍣  The Story":
                   text-align:center;color:white;">
         <div style="font-size:1.5rem;">🛒</div>
         <div style="font-size:1rem;font-weight:700;margin:0.3rem 0;">Collect</div>
-        <div style="font-size:0.85rem;line-height:1.5;">Retail sushi,<br>salmon loins,<br>oysters &amp; scallops<br>— Norway</div>
+        <div style="font-size:0.85rem;line-height:1.5;">Retail sushi,<br>salmon loins,<br>oysters &amp; scallops<br>+ processing environment<br>— Norway</div>
       </div>
 
       <div style="display:flex;align-items:center;color:#888;font-size:1.2rem;padding:0 2px;">→</div>
@@ -305,7 +306,7 @@ if page == "🍣  The Story":
                   text-align:center;color:white;border:3px dashed #E07B54;">
         <div style="font-size:1.5rem;">💻</div>
         <div style="font-size:1rem;font-weight:700;margin:0.3rem 0;">Molecular<br>Analysis</div>
-        <div style="font-size:0.85rem;line-height:1.5;">AMRFinderPlus<br>VFDB · FastANI<br>MobileElementFinder<br><b>22 genomes</b></div>
+        <div style="font-size:0.85rem;line-height:1.5;">AMRFinderPlus<br>VFDB · FastANI<br>MobileElementFinder<br><b>19 representatives</b></div>
       </div>
 
     </div>
@@ -315,14 +316,16 @@ if page == "🍣  The Story":
     """
     st.markdown(pipe_html, unsafe_allow_html=True)
 
+    st.caption("MDR correction note: corrected nine-category, R-only study-operational classification confirms 45/79 records (57.0%), matching all 79 original source labels. AMP is included and intermediate results are excluded; this is not a validated acquired-resistance clinical classification. The published article reports approximately 58%, preserved as historical wording rather than a computational target. A publication calculation/rounding error is the author's proposed explanation; the original calculation has not been reconstructed. See DATA_CORRECTIONS.md for the record-level comparison and definition.")
+
     # ── Key numbers ──────────────────────────────────────────
     c1,c2,c3,c4,c5 = st.columns(5)
     stats = [
-        ("79","Seafood samples","Retail sushi, salmon, oysters, scallops — Norway"),
+        ("79","Isolate records","69 seafood-associated + 10 processing-environment records"),
         ("22","Genomes sequenced","Full WGS: Illumina MiSeq 2×300 bp, SPAdes assembly"),
         ("8","Aeromonas species","Identified by MLPA (6 housekeeping genes) + ANI"),
-        ("57%","Multidrug-resistant","MDR = resistant to ≥3 antibiotic classes"),
-        ("2","Mobile resistance\ngenes found","Plasmid + transposon-linked transferable AMR genes"),
+        ("57.0%","Study-operational MDR","45/79 after nine-category R-only reclassification"),
+        ("2","Genomic case studies","A539 and SU4-2; potential mobility, not observed transmission"),
     ]
     for col,(val,lab,tip) in zip([c1,c2,c3,c4,c5], stats):
         col.markdown(f"""
@@ -339,66 +342,13 @@ if page == "🍣  The Story":
     <div class="insight-box" style="margin-top:1rem;">
     💡 <strong>Navigate the sections</strong> using the sidebar to explore:
     the bacteria found (🦠), their antibiotic resistance profiles (💊),
-    and how resistance genes travel through the food chain (🧬).
+    and genomic features associated with potential resistance mobility (🧬).
     </div>
     """, unsafe_allow_html=True)
     
     st.divider()
 
-    # ── AMR — why it matters (from lecture) ──────────────────
-    st.markdown('<span class="section-header">🌍 Antimicrobial Resistance — The Silent Pandemic</span>',
-                unsafe_allow_html=True)
-
-    col_def, col_stats = st.columns([1.2, 1])
-    with col_def:
-        st.markdown("""
-**Antimicrobial resistance (AMR)** is the ability of a microorganism to
-resist the action of an antimicrobial agent — ranked by WHO as one of the
-**top 10 global public health threats** facing humanity.
-
-**How does resistance arise?**
-- **Intrinsic resistance** — naturally present in the species
-- **Acquired resistance** — gained through mutation or horizontal gene transfer (HGT)
-
-**How does it spread?**
-Bacteria share resistance genes via **mobile genetic elements** (MGEs):
-plasmids, transposons, integrons — the molecular vehicles of AMR.
-
-**Why food matters:**
-The food chain is a **silent highway** connecting aquaculture → seafood →
-your gut bacteria → potential pathogens.
-        """)
-
-    with col_stats:
-        fig_amr = go.Figure()
-        categories = ["Directly caused\nby AMR (2019)", "Associated with\nAMR (2019)",
-                      "Projected deaths\nby 2050"]
-        values     = [1.27, 4.95, 10.0]
-        colors     = ["#E07B54", "#C4706A", "#9B7BB8"]
-        fig_amr.add_trace(go.Bar(
-            y=categories, x=values, orientation="h",
-            marker_color=colors,
-            text=[f"{v}M" for v in values], textposition="outside",
-            hovertemplate="%{y}: %{x}M deaths per year<extra></extra>",
-        ))
-        fig_amr.update_layout(
-            title=dict(text="Global AMR Death Burden<br><sup>Source: Murray et al. 2022 (The Lancet); UNEP 2023</sup>",
-                       font_size=12),
-            xaxis=dict(title="Deaths (millions)", range=[0, 13]),
-            height=240, margin=dict(l=10, r=80, t=50, b=10),
-            plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
-        )
-        st.plotly_chart(fig_amr, use_container_width=True)
-
-        st.markdown("""
-        <div class="warning-box">
-        ⚠️ AMR kills more people than HIV/AIDS and tuberculosis <strong>combined</strong>.
-        Without action, it could claim <strong>10 million lives per year by 2050</strong> —
-        rivalling cancer.
-        </div>
-        """, unsafe_allow_html=True)
-
-    st.divider()
+    st.markdown("Antimicrobial resistance can be intrinsic or acquired. Mobile genetic elements can contribute to gene movement, but this study did not demonstrate transmission to humans or quantify clinical outcomes.")
 
 
 # ════════════════════════════════════════════════════════════
@@ -406,7 +356,7 @@ your gut bacteria → potential pathogens.
 # ════════════════════════════════════════════════════════════
 elif page == "🦠  The Bacteria":
 
-    st.title("🦠 The Bacteria Found in Retail Seafood")
+    st.title("🦠 The Study Isolate Collection")
     st.markdown(
         "22 *Aeromonas* strains were whole-genome sequenced. "
         "They represent **8 different species**, each with a distinct profile "
@@ -414,7 +364,7 @@ elif page == "🦠  The Bacteria":
     )
 
     # ── Species + source overview ─────────────────────────────
-    st.markdown('<span class="section-header">📍 Species found in retail seafood</span>',
+    st.markdown('<span class="section-header">📍 Species in the study collection</span>',
                 unsafe_allow_html=True)
 
     col_bar, col_pie = st.columns(2)
@@ -450,9 +400,10 @@ elif page == "🦠  The Bacteria":
                               margin=dict(t=40,b=10))
         st.plotly_chart(fig_src, use_container_width=True)
 
+    st.caption("All 22 WGS isolates have unique NCBI assembly mappings verified against BioProject PRJNA877469 and source S1. Analysis IDs are preserved; four aliases were confirmed by the research author. WGS master and assembly accessions are shown separately.")
     with st.expander("🔍 View all 22 strains"):
         disp = strain_sum.copy()
-        disp.columns = ["Strain ID","Species","Isolation Source","NCBI Accession"]
+        disp = disp.rename(columns={"Isolation source": "Isolation Source", "NCBI accession": "NCBI Accession"})
         st.dataframe(disp, use_container_width=True, hide_index=True)
         st.caption(
             "Strain IDs reflect origin: SU = retail sushi, SL = salmon loin, "
@@ -516,8 +467,8 @@ elif page == "🦠  The Bacteria":
     💡 <strong>Key finding from ANI:</strong>
     Strains A533 & A536 (<i>A. dhakensis</i>) and SU3, SU9 & SU15
     (<i>A. rivipollensis</i>) show ANI ≥ 99.9% — they are
-    <strong>genetically identical strains</strong> isolated from different sushi products.
-    Only one representative per identical pair was used in downstream analysis
+    <strong>highly similar genomes</strong> isolated from different sushi products.
+    One representative per highly similar group was used in downstream analysis
     (final dataset: <strong>19 representative strains</strong>).
     </div>
     """, unsafe_allow_html=True)
@@ -542,7 +493,7 @@ We analysed **18 categories** across 5 functional groups:
 | 🔴 **Toxins** | Hemolysins, enterotoxins |
 | 🔵 **Immune evasion** | Capsule, O-antigen |
 
-**More factors = potentially more dangerous.**
+**Category counts describe detected features, not clinical danger or validated pathogenicity.**
         """)
 
     with col_vfhm:
@@ -561,14 +512,13 @@ We analysed **18 categories** across 5 functional groups:
 
     st.markdown("""
     <div class="warning-box">
-    ⚠️ <strong>Key finding:</strong> <i>A. piscicola</i>, <i>A. bestiarum</i>,
-    <i>A. salmonicida</i>, <i>A. hydrophila</i>, and <i>A. dhakensis</i>
-    carry significantly more virulence factors than <i>A. caviae</i>,
-    <i>A. media</i>, and <i>A. rivipollensis</i> — consistent with their
-    known roles as human pathogens in clinical settings.
+    <strong>Expanded repository analysis:</strong> 22 study isolates and 7 references.
+    The summaries below exclude all 7 references, including GA97_22.
+    Near-identical study isolates remain included; these descriptive summaries
+    are not an independent replication of the paper's 19-representative analysis.
     </div>
     """, unsafe_allow_html=True)
-    
+
 
 
     # strain explorer
@@ -617,28 +567,28 @@ elif page == "💊  Antibiotic Resistance":
     st.title("💊 Antibiotic Resistance in *Aeromonas*")
     st.markdown("""
     Two complementary analyses were performed:
-    - **22 WGS strains** → both phenotypic (disk diffusion) and genotypic (AMR genes) profiles
-    - **79 isolates** → phenotypic resistance to map MDR distribution across all retail seafood samples
+    - **22 sequenced isolates, 19 representatives** → published genotypic profiles
+    - **79 isolate records** → phenotypes from seafood and processing environments; not population prevalence
     """)
 
     st.divider()
 
     # ── SECTION 1: 22-strain genotypic vs phenotypic ─────────
-    st.markdown('<span class="section-header">🔬 22 WGS strains — Phenotypic vs Genotypic AMR profiles</span>',
+    st.markdown('<span class="section-header">🔬 19 representative strains — published AMR gene profiles</span>',
                 unsafe_allow_html=True)
 
     st.markdown("""
-    For the 22 genome-sequenced strains, we compared:
+    The publication compares 19 representative strains:
     **phenotypic resistance** (disk diffusion — what happens in the lab)
     vs **genotypic resistance** (AMR genes detected in the genome).
-    This comparison reveals which genes drive observed resistance — and
+    This descriptive comparison does not establish causation; it
     highlights cases of **discordance** (resistance not explained by known genes,
     or genes present without phenotypic effect).
     """)
 
     # Genotypic heatmap (Table 1)
     table1_data = [
-        ["SU4",    "A. caviae",        "",            "blaMOX-15",   "blaOXA-780",  "tet(E),qacEΔ1","sul1,aadA1"],
+        ["SU4-2",  "A. caviae",        "",            "blaMOX-15",   "blaOXA-780",  "tet(E),qacEΔ1","sul1,aadA1"],
         ["A533",   "A. dhakensis",     "cphA2",       "blaAQU",      "blaOXA-12",   "",""],
         ["A537",   "A. hydrophila",    "cphA2",       "cepS",        "blaOXA-12",   "tet(E)",""],
         ["A539",   "A. rivipollensis", "",            "",            "blaOXA-427",  "","qnrS2"],
@@ -646,7 +596,7 @@ elif page == "💊  Antibiotic Resistance":
         ["SC42",   "A. rivipollensis", "",            "",            "blaOXA-427",  "",""],
         ["OY1",    "A. rivipollensis", "",            "",            "blaOXA-427",  "",""],
         ["OY52",   "A. media",         "",            "blaMOX-9",    "blaOXA-427",  "",""],
-        ["SU6",    "A. bestiarum",     "cphA1",       "",            "blaOXA-956",  "",""],
+        ["SU6-2",  "A. bestiarum",     "cphA1",       "",            "blaOXA-956",  "",""],
         ["SL22",   "A. bestiarum",     "cphA1",       "",            "blaOXA-956",  "",""],
         ["SU58-3", "A. bestiarum",     "cphA1",       "",            "blaOXA-956",  "",""],
         ["LJP308", "A. piscicola",     "cphA1",       "",            "blaOXA-956",  "",""],
@@ -739,6 +689,8 @@ elif page == "💊  Antibiotic Resistance":
     )
     st.plotly_chart(fig_geno, use_container_width=True)
 
+    st.caption("Later manual re-visualization of published Table 1. Gene-family descriptions below are biological context, not independently validated phenotype predictions. Gene presence does not establish resistance to every drug in a class.")
+
     # Key observations below the chart
     col_obs1, col_obs2 = st.columns(2)
     with col_obs1:
@@ -755,7 +707,7 @@ elif page == "💊  Antibiotic Resistance":
         st.markdown("""
 **Species-specific patterns:**
 - *A. salmonicida / bestiarum / piscicola* → cphA (Class B) + blaOXA-956
-- *A. rivipollensis / media* → blaOXA-427 only
+- *A. rivipollensis / media* → blaOXA-427; A. media also carries blaMOX-9 in this table
 - *A. caviae / dhakensis / hydrophila* → mixed profile
 
 **All 19 strains carry at least one AMR gene.**
@@ -766,14 +718,20 @@ elif page == "💊  Antibiotic Resistance":
 
     wgs_strains = t1["strain"].tolist()
     sel_iso = st.selectbox("Select a WGS strain", wgs_strains)
-    iso_row = amr_wide[amr_wide["isolate_id"]==sel_iso]
-    if len(iso_row) == 0:
-        iso_row = amr_wide[amr_wide["isolate_id"].str.startswith(sel_iso[:3])]
-    if len(iso_row) > 0:
-        iso_row = iso_row.iloc[0]
-        iso_long = amr_long[amr_long["isolate_id"]==sel_iso]
-        if len(iso_long)==0:
-            iso_long = amr_long[amr_long["isolate_id"].str.startswith(sel_iso[:3])]
+    selected_species = t1.set_index("strain").loc[sel_iso, "species"]
+    matches = amr_wide[(amr_wide["isolate_id"] == sel_iso) &
+                       (amr_wide["species"] == selected_species)]
+    if len(matches) != 1:
+        st.error("This strain does not have one unambiguous phenotype record.")
+        st.stop()
+    iso_row = matches.iloc[0]
+    iso_long = amr_long.copy()
+    for field in ISOLATE_KEY:
+        iso_long = iso_long[iso_long[field] == iso_row[field]]
+    if len(iso_long) != 15 or iso_long["abx_label"].nunique() != 15:
+        st.error("The selected isolate does not have a complete, unique antibiotic panel.")
+        st.stop()
+    if len(iso_long) == 15:
         mdr_txt = "⛔ MDR" if iso_row["MDR"]==1 else "✅ Non-MDR"
         n_R = int((iso_long["phenotype"]=="R").sum())
         ca,cb,cc = st.columns(3)
@@ -803,26 +761,26 @@ elif page == "💊  Antibiotic Resistance":
     st.divider()
 
     # ── SECTION 2: 79-strain MDR overview ────────────────────
-    st.markdown('<span class="section-header">📊 79 isolates — MDR overview across all retail seafood</span>',
+    st.markdown('<span class="section-header">📊 79 isolate records — supplied MDR labels</span>',
                 unsafe_allow_html=True)
 
     st.markdown("""
     All 79 isolates were tested against 15 antibiotics by disk diffusion.
-    This broader dataset captures the **full scope of MDR** in retail seafood —
-    across all sources and years sampled.
+    This selected collection includes seafood and processing-environment isolates; it does not estimate MDR prevalence across retail seafood.
     """)
 
+    st.caption("MDR summaries currently use original source labels; class-based verification is documented separately.")
     # MDR summary
-    n_tot = amr_wide["isolate_id"].nunique()
+    n_tot = len(amr_wide)
     n_mdr = int(amr_wide["MDR"].sum())
     c1,c2,c3,c4 = st.columns(4)
     c1.metric("Total isolates", n_tot)
-    c2.metric("MDR isolates", n_mdr, f"{n_mdr/n_tot*100:.0f}% of total")
-    c3.metric("Antibiotics tested", 15, "8 classes")
+    c2.metric("MDR isolates", n_mdr, f"{n_mdr/n_tot*100:.1f}% under the study rule")
+    c3.metric("Antibiotics tested", 15, "9 corrected categories")
     c4.metric("100% resistant to", "Ampicillin", "intrinsic in Aeromonas")
 
     # MDR by species
-    iso_meta = amr_long[["isolate_id","species","MDR"]].drop_duplicates("isolate_id")
+    iso_meta = amr_long[ISOLATE_KEY + ["MDR"]].drop_duplicates(ISOLATE_KEY)
     mdr_sp = (iso_meta.groupby("species")["MDR"]
               .agg(total="count", mdr_n="sum")
               .assign(mdr_pct=lambda x: x["mdr_n"]/x["total"]*100)
@@ -850,8 +808,8 @@ elif page == "💊  Antibiotic Resistance":
             y=mdr_sp["species"], x=mdr_sp["mdr_pct"], orientation="h",
             marker_color=mdr_sp["color"],
             text=mdr_sp["mdr_pct"].apply(lambda v:f"{v:.0f}%"), textposition="outside"))
-        fig_pct.add_vline(x=57, line_dash="dash", line_color="#555",
-            annotation_text="Overall 57%", annotation_position="top")
+        fig_pct.add_vline(x=n_mdr/n_tot*100, line_dash="dash", line_color="#555",
+            annotation_text="Overall 57.0%", annotation_position="top")
         fig_pct.update_layout(
             title="MDR rate (%) per species",
             xaxis=dict(title="MDR rate (%)", range=[0,120]),
@@ -895,11 +853,11 @@ elif page == "💊  Antibiotic Resistance":
 
     st.markdown("""
     <div class="critical-box">
-    🚨 <strong>Concerning findings:</strong>
+    <strong>Descriptive findings in this collection:</strong>
     <b>100%</b> resist Ampicillin (intrinsic).
-    <b>57%</b> resist Erythromycin — used for atypical pneumonia.
-    <b>48%</b> resist Florfenicol — a veterinary antibiotic marker for food-chain contamination.
-    <b>10%</b> resist Imipenem — a last-resort carbapenem antibiotic for life-threatening infections.
+    <b>57%</b> resist Erythromycin.
+    <b>48%</b> resist Florfenicol.
+    <b>10%</b> resist Imipenem.
     </div>
     """, unsafe_allow_html=True)
 
@@ -909,51 +867,49 @@ elif page == "💊  Antibiotic Resistance":
 # ════════════════════════════════════════════════════════════
 elif page == "🧬  How Resistance Spreads":
 
-    st.title("🧬 How Resistance Genes Travel Through the Food Chain")
-    st.markdown("""
-    Some *Aeromonas* strains carry **mobile genetic elements (MGEs)** —
-    molecular vehicles that move resistance genes between bacteria,
-    even across different species.
-    This is how resistance spreads silently from aquaculture
-    through the food chain into human pathogens.
-    """)
-    st.markdown("""
-    <div class="warning-box">
-    ⚠️ <strong>Why MGEs matter:</strong>
-    Chromosomal resistance stays within one species.
-    <strong>MGEs can jump to other bacteria</strong> — including pathogens like
-    <i>Salmonella</i>, <i>E. coli</i>, or <i>Klebsiella</i> —
-    making those infections untreatable with the antibiotics we rely on.
-    </div>
-    """, unsafe_allow_html=True)
-
+    st.title("🧬 Genomic Features Associated with Potential Mobility")
+    st.markdown("The paper reports mobile genetic elements and resistance-associated genes. Their presence suggests potential mobility; transfer to human pathogens, clinical harm and treatment failure were not demonstrated in this study.")
     st.divider()
 
-    # ── MGE burden ────────────────────────────────────────────
-    st.markdown('<span class="section-header">📊 Mobile element burden — which strains carry the most?</span>',
-                unsafe_allow_html=True)
+    st.markdown('### SU4 / SU4-2: reconciled Table S4 counts')
+    su4_counts = pd.read_csv(PROC / 'su4_mge_summary.csv').set_index('category')
+    su4_entries = pd.read_csv(PROC / 'su4_mge_reconciliation.csv').fillna('')
+    is_mite = su4_counts.loc[['IS','MITE']]
+    count_cols = st.columns(3)
+    count_cols[0].metric('Distinct IS/MITE entries', int(is_mite['distinct_entries'].sum()))
+    count_cols[1].metric('IS/MITE copies (Table S4)', int(is_mite['table_copy_count'].sum()))
+    count_cols[2].metric('Separate transposon', int(su4_counts.loc['Transposon','distinct_entries']), 'Tn521')
+    st.caption('15 single IS entries + MITEAeme1 (6 copies) = 21 IS/MITE copies across 16 distinct entries. Tn521 is counted separately, never as an IS. This reconciles the published number arithmetically when MITEs are included; it does not reconstruct the original counting workflow or validate genomic coordinates. The arithmetic sum including Tn521 is 22, not a verified non-overlapping genomic-locus total.')
+    st.image(str(PROC / 'fig_su4_mge_counts.png'))
+    with st.expander('View source cells and counting rules'):
+        st.dataframe(su4_entries[['source_cell','source_text','element_name','category','table_copy_count','copy_basis']], hide_index=True)
+    st.info('Across-strain numerical MGE comparisons remain withheld: other isolates were not revalidated in this targeted SU4 correction. Conceptual genomic schematics remain hidden.')
+    if False:  # Phase 1 hold: pending separate Phase 2 approval.
+        # ── MGE burden ────────────────────────────────────────────
+        st.markdown('<span class="section-header">📊 Mobile element burden — which strains carry the most?</span>',
+                    unsafe_allow_html=True)
 
-    mge_s = mge_burden.sort_values("is_copies", ascending=True).copy()
-    mge_s["color"]  = mge_s["species"].map(SPECIES_PALETTE)
-    mge_s["is_key"] = mge_s["strain"].isin(["SU4","A539"])
-    mge_s["label"]  = mge_s.apply(lambda r: f"⭐ {r['strain']}" if r["is_key"] else r["strain"], axis=1)
+        mge_s = mge_burden.sort_values("is_copies", ascending=True).copy()
+        mge_s["color"]  = mge_s["species"].map(SPECIES_PALETTE)
+        mge_s["is_key"] = mge_s["strain"].isin(["SU4","A539"])
+        mge_s["label"]  = mge_s.apply(lambda r: f"⭐ {r['strain']}" if r["is_key"] else r["strain"], axis=1)
 
-    fig_mge = go.Figure(go.Bar(
-        x=mge_s["is_copies"], y=mge_s["label"], orientation="h",
-        marker=dict(color=mge_s["color"],
-                    line=dict(color=["#000" if k else "rgba(0,0,0,0)" for k in mge_s["is_key"]], width=2)),
-        hovertemplate="<b>%{y}</b><br>Species: %{customdata}<br>IS copies: %{x}<extra></extra>",
-        customdata=mge_s["species"],
-    ))
-    fig_mge.add_vline(x=mge_s["is_copies"].mean(), line_dash="dash", line_color="#555",
-        annotation_text=f"Mean ({mge_s['is_copies'].mean():.1f})", annotation_position="top")
-    fig_mge.update_layout(
-        title="IS element copy number per strain (⭐ = case study strains)",
-        xaxis_title="Total IS element copy number",
-        height=500, plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=50,b=10,l=120))
-    st.plotly_chart(fig_mge, use_container_width=True)
+        fig_mge = go.Figure(go.Bar(
+            x=mge_s["is_copies"], y=mge_s["label"], orientation="h",
+            marker=dict(color=mge_s["color"],
+                        line=dict(color=["#000" if k else "rgba(0,0,0,0)" for k in mge_s["is_key"]], width=2)),
+            hovertemplate="<b>%{y}</b><br>Species: %{customdata}<br>IS copies: %{x}<extra></extra>",
+            customdata=mge_s["species"],
+        ))
+        fig_mge.add_vline(x=mge_s["is_copies"].mean(), line_dash="dash", line_color="#555",
+            annotation_text=f"Mean ({mge_s['is_copies'].mean():.1f})", annotation_position="top")
+        fig_mge.update_layout(
+            title="IS element copy number per strain (⭐ = case study strains)",
+            xaxis_title="Total IS element copy number",
+            height=500, plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=50,b=10,l=120))
+        st.plotly_chart(fig_mge, use_container_width=True)
 
-    st.divider()
+        st.divider()
 
     # ── Case studies side by side ─────────────────────────────
     st.markdown('<span class="section-header">⭐ Two critical case studies</span>',
@@ -967,9 +923,12 @@ elif page == "🧬  How Resistance Spreads":
         **Source:** Retail sushi &nbsp;|&nbsp; **Species:** *A. caviae*
         """)
         st.markdown("""
-        **What was found:**
+        **Published account (not revalidated here):**
         A **Tn521 transposon** carrying a **mercury resistance operon**,
         co-localised with a **Class I integron** carrying antibiotic resistance genes.
+        **Author-confirmed correction:** Tn521 is the correct designation.
+        The preserved repository Table S4 cell D57 says Tn512; the current article already says Tn521.
+        Derived labels use Tn521, with the source spelling retained in the reconciliation table.
         """)
         st.markdown("""
         | Gene | Resistance |
@@ -984,22 +943,12 @@ elif page == "🧬  How Resistance Spreads":
         """)
         st.markdown("""
         <div class="critical-box">
-        🚨 <strong>Co-selection mechanism:</strong><br>
-        Mercury contamination in aquatic environments selects for bacteria
-        carrying Tn521 — and these bacteria <strong>simultaneously maintain
-        antibiotic resistance genes</strong> in the same genetic element.
-        <br><br>
-        <strong>No antibiotic pressure needed — mercury does the job.</strong>
-        This is a direct link between <em>environmental pollution</em>
-        and <em>antibiotic resistance in food</em>.
+        <strong>Potential co-selection:</strong><br>
+        Genomic co-localisation is consistent with a co-selection hypothesis.
+        Mercury exposure and selection of antibiotic resistance were not experimentally tested here.
         </div>
         """, unsafe_allow_html=True)
-        try:
-            st.image(str(PROC/"fig_case_SU4.png"),
-                     caption="SU4: Tn521 + Class I integron + AMR gene cluster",
-                     use_column_width=True)
-        except Exception:
-            st.info("fig_case_SU4.png not found.")
+        st.caption("Conceptual schematic withheld pending verification of depicted genes and genomic context; the historical image file is preserved.")
 
     with col_gap:
         st.markdown("<div style='border-left:2px solid #e0e0e0;height:100%;'></div>",
@@ -1012,73 +961,31 @@ elif page == "🧬  How Resistance Spreads":
         """)
         st.markdown("""
         **What was found:**
-        An **IncQ1 plasmid** (6,535 bp) — a small, self-mobilisable piece of DNA —
+        An **IncQ1 plasmid** (6,535 bp) — a plasmid with mobilization-associated features —
         carrying **qnrS2**, which confers quinolone resistance.
         """)
         st.markdown("""
         | Element | Role |
         |---|---|
-        | IncQ1 plasmid | Highly mobile — transfers between species |
-        | `repA/B/C` | Replication proteins |
-        | `mobA` | Mobilisation — enables transfer |
+        | IncQ1 plasmid | Potentially mobilizable; transfer not tested here |
+        | `repA/repC` | Replication proteins |
+        | `mobA` | Mobilization-associated protein |
         | `qnrS2` | **Quinolone resistance** |
         """)
         st.markdown("""
         <div class="critical-box">
-        🚨 <strong>Why quinolone resistance matters:</strong><br>
-        Quinolones (ciprofloxacin, oxolinic acid) treat serious infections —
-        UTIs, pneumonia, sepsis.
-        <br><br>
-        The IncQ1 plasmid is one of the <strong>most promiscuous</strong>
-        plasmid types — it can transfer to <em>unrelated bacterial species</em>
-        in the same environment (e.g. gut, seafood surface, water).
-        <br><br>
-        <strong>qnrS2 was the most commonly used antibiotic in Norwegian aquaculture.</strong>
-        This is a direct link from aquaculture → retail food → human health risk.
+        <strong>Interpretation:</strong><br>
+        qnrS2 is a quinolone-resistance gene, not an antibiotic.
+        Its presence on the reported IncQ1 plasmid indicates potential mobility,
+        not demonstrated aquaculture-to-human transmission or resistance to every quinolone.
         </div>
         """, unsafe_allow_html=True)
-        try:
-            st.image(str(PROC/"fig_case_A539.png"),
-                     caption="A539: IncQ1 plasmid carrying qnrS2 (quinolone resistance)",
-                     use_column_width=True)
-        except Exception:
-            st.info("fig_case_A539.png not found.")
+        st.caption("Conceptual schematic withheld pending verification of depicted genes and genomic context; the historical image file is preserved.")
 
     st.divider()
 
-    # ── One Health + Policy ───────────────────────────────────
-    st.markdown('<span class="section-header">🌍 What does this mean? — One Health & Policy implications</span>',
-                unsafe_allow_html=True)
-
-    col_pol, col_sol = st.columns([1.3, 1])
-    with col_pol:
-        st.markdown("""
-        | Research finding | Policy implication |
-        |---|---|
-        | 57% of retail seafood bacteria are MDR | AMR surveillance must include **food-borne non-pathogens**, not only clinical isolates |
-        | Mercury contamination co-selects for antibiotic resistance | **Environmental pollution control = AMR control** |
-        | Plasmid-mediated quinolone resistance in retail sushi | **Stricter AMR monitoring** of ready-to-eat seafood at point of sale |
-        | 8 *Aeromonas* species, all carrying virulence genes | **One Health approach** — aquatic, food, and clinical environments must be monitored together |
-        | Norway's strict antibiotic regulation works | Restrict aquaculture antibiotic use: from **48 tonnes (1987)** to **<1 tonne (2021)** |
-        """)
-
-    with col_sol:
-        st.markdown("""
-        <div class="green-box">
-        <strong>💡 The solution is not to stop eating sushi.</strong>
-        <br><br>
-        It's to build cleaner, more sustainable food production systems
-        and to integrate food chain monitoring into national and
-        European AMR surveillance programmes.
-        <br><br>
-        Norway's aquaculture model shows it's possible:
-        strict regulation + vaccination + monitoring =
-        dramatic reduction in antibiotic use without sacrificing production.
-        <br><br>
-        <em>— Lee et al. (2023); WHO Global Action Plan on AMR; EU Commission 2021</em>
-        </div>
-        """, unsafe_allow_html=True)
-
+    st.markdown("### One Health relevance")
+    st.markdown("These observations motivate further surveillance and experimental work. They do not demonstrate the effectiveness of a regulation, establish population prevalence or constitute a regulatory recommendation or endorsement.")
     st.divider()
     st.caption(
         "📚 **Read more:** "
