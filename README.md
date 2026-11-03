@@ -34,7 +34,7 @@ The dashboard makes the published dataset more accessible through four sections:
 3. **Antibiotic Resistance:** phenotype/genotype summaries, resistance patterns and strain-level selection.
 4. **How Resistance Spreads:** supported mobile-element observations and a carefully qualified SU4 case study. The title denotes the research question, **not proof of observed transmission**.
 
-Verified SU4 results distinguish **15 IS entries**, **one MITEAeme1 entry with six copies**, and **one separate Tn521 transposon**. In total, the original supplementary table supports **16 distinct IS/MITE entries and 21 table-derived copies**, not a verified recount of 21 independent genomic loci. Other-isolate quantitative MGE comparisons and speculative genomic-coordinate schematics are not shown.
+For source-level MGE classifications, reconciliation and interpretation limits, see [DATA_CORRECTIONS.md](DATA_CORRECTIONS.md).
 
 The application uses committed processed tables and figures. It does not require rerunning the historical WGS workflow to explore the saved data.
 
