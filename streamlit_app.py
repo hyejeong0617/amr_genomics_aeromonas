@@ -40,7 +40,7 @@ st.markdown("""
 .stApp, [data-testid="stAppViewContainer"] { background:#F7FAFC; color:#183044; }
 [data-testid="stSidebar"] { background:#EAF1F5; border-right:1px solid #D8E4EC; }
 [data-testid="stSidebar"] * { overflow-wrap:anywhere; }
-.block-container { max-width:1160px; padding-top:2.5rem; padding-bottom:4rem; }
+.block-container { max-width:1680px !important; width:100% !important; padding:2rem clamp(1rem, 3vw, 3.5rem) 3rem !important; }
 h1,h2,h3 { color:#17344A !important; letter-spacing:-.025em; }
 h1 {font-size:2.15rem !important; margin-bottom:.6rem;}
 h2 {font-size:1.4rem !important; }
@@ -71,7 +71,11 @@ border-top:3px solid #167D8D;border-radius:10px;color:#183044;min-height:136px;}
 [data-testid="stPlotlyChart"] {background:#fff;border:1px solid #E1E9ED;border-radius:10px;padding:.6rem;}
 [data-testid="stExpander"] {border-radius:9px;background:white;}
 @media(max-width:800px){.research-flow{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:540px){.research-flow{grid-template-columns:1fr}.block-container{padding:1rem}h1{font-size:1.75rem!important;}}
+@media(max-width:540px){.research-flow{grid-template-columns:1fr}.block-container{padding:1rem !important}h1{font-size:1.75rem!important;}}
+/* Dark brand retains accessible white lettering despite sidebar global overrides. */
+[data-testid="stSidebar"] .sidebar-brand {background:linear-gradient(135deg,#1A2945,#133B61);border-radius:12px;padding:1.15rem 1rem;margin-bottom:1rem;}
+[data-testid="stSidebar"] .sidebar-brand p.brand-title {color:#fff !important;opacity:1 !important;font-weight:800;font-size:1.12rem;line-height:1.35;text-align:center;margin:.35rem 0;}
+[data-testid="stSidebar"] .sidebar-brand p.brand-subtitle {color:#E4F1FA !important;opacity:1 !important;font-size:.8rem;line-height:1.5;text-align:center;margin:0;}
 /* UI contrast repair: Streamlit theme may still be dark underneath CSS light canvas. */
 [data-testid="stAppViewContainer"] {background:#F4F7FA !important;}
 [data-testid="stMainBlockContainer"] {color:#183044 !important;}
@@ -211,15 +215,13 @@ ANI_SPECIES = {
 with st.sidebar:
     # ── Banner in sidebar ─────────────────────────────────────
     st.markdown("""
-    <div style="background:linear-gradient(135deg,#1a1a2e,#0f3460);
-                border-radius:10px; padding:1.1rem 1rem; margin-bottom:1rem;">
+    <div class="sidebar-brand">
       <div style="font-size:2rem; text-align:center;">🍣</div>
-      <p style="font-size:1.15rem; font-weight:800; color:#fff;
-                margin:0.3rem 0 0.2rem; text-align:center; line-height:1.3;">
+      <p class="brand-title">
         Aeromonas Genomics
 Research Explorer
       </p>
-      <p style="font-size:0.78rem; color:#a8c8e8; text-align:center; margin:0;">
+      <p class="brand-subtitle">
         Seafood and processing-environment<br>isolate collection
       </p>
     </div>
@@ -279,14 +281,16 @@ if page == "🍣  The Story":
     """
     st.markdown(pipe_html, unsafe_allow_html=True)
 
-    st.caption("MDR correction note: corrected nine-category, R-only study-operational classification confirms 45/79 records (57.0%), matching all 79 original source labels. AMP is included and intermediate results are excluded; this is not a validated acquired-resistance clinical classification. The published article reports approximately 58%, preserved as historical wording rather than a computational target. A publication calculation/rounding error is the author's proposed explanation; the original calculation has not been reconstructed. See DATA_CORRECTIONS.md for the record-level comparison and definition.")
 
     # Headline study-scoped figures; labels avoid population prevalence claims.
     c1,c2,c3,c4 = st.columns(4)
     c1.metric("Isolate records", "79")
     c2.metric("WGS isolates", "22")
     c3.metric("Identified species", "8")
-    c4.metric("Study-specific MDR", "45/79 · 57.0%")
+    c4.metric("Study-specific MDR", "45/79 · 57.0%", help="Study-specific nine-category, R-only classification; not population prevalence or a validated clinical MDR definition.")
+    with st.expander("Study-specific MDR: definition and source discrepancy", expanded=False):
+        st.caption("MDR correction note: corrected nine-category, R-only study-operational classification confirms 45/79 records (57.0%), matching all 79 original source labels. AMP is included and intermediate results are excluded; this is not a validated acquired-resistance clinical classification. The published article reports approximately 58%, preserved as historical wording rather than a computational target. A publication calculation/rounding error is the author's proposed explanation; the original calculation has not been reconstructed. See DATA_CORRECTIONS.md for the record-level comparison and definition.")
+        st.markdown("[Source correction details](https://github.com/hyejeong0617/amr_genomics_aeromonas/blob/main/DATA_CORRECTIONS.md)")
     st.caption("79 isolate records, 22 sequenced genomes, 19 representatives in published downstream gene analysis. MDR is the corrected study-specific nine-category R-only rule, not population prevalence.")
 
     st.markdown("""
