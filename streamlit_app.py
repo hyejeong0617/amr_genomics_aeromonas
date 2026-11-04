@@ -18,6 +18,21 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Plotly figures inherit the previous dark default unless styling is fixed per figure.
+# Preserve data traces, axes and scientific annotations; change presentation only.
+def research_chart(fig, **kwargs):
+    fig.update_layout(
+        template="plotly_white",
+        paper_bgcolor="#F9FBFC",
+        plot_bgcolor="#F9FBFC",
+        font=dict(color="#17344A", size=13),
+        title_font=dict(color="#17344A", size=15),
+        legend=dict(font=dict(color="#17344A")),
+    )
+    fig.update_xaxes(tickfont=dict(color="#41586A", size=11), title_font=dict(color="#17344A"))
+    fig.update_yaxes(tickfont=dict(color="#41586A", size=11), title_font=dict(color="#17344A"))
+    st.plotly_chart(fig, **kwargs)
+
 # ── CSS ───────────────────────────────────────────────────────
 st.markdown("""
 <style>
@@ -57,6 +72,41 @@ border-top:3px solid #167D8D;border-radius:10px;color:#183044;min-height:136px;}
 [data-testid="stExpander"] {border-radius:9px;background:white;}
 @media(max-width:800px){.research-flow{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:540px){.research-flow{grid-template-columns:1fr}.block-container{padding:1rem}h1{font-size:1.75rem!important;}}
+/* UI contrast repair: Streamlit theme may still be dark underneath CSS light canvas. */
+[data-testid="stAppViewContainer"] {background:#F4F7FA !important;}
+[data-testid="stMainBlockContainer"] {color:#183044 !important;}
+[data-testid="stAppViewContainer"] .stMarkdown,
+[data-testid="stAppViewContainer"] .stMarkdown p,
+[data-testid="stAppViewContainer"] .stMarkdown li,
+[data-testid="stAppViewContainer"] .stCaption,
+[data-testid="stAppViewContainer"] [data-testid="stCaptionContainer"],
+[data-testid="stAppViewContainer"] [data-testid="stCaptionContainer"] p,
+[data-testid="stAppViewContainer"] [data-testid="stHeadingWithActionElements"] {
+ color:#183044 !important;
+}
+[data-testid="stSidebar"] {background:#E6EEF4 !important;}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] label p,
+[data-testid="stSidebar"] [role="radiogroup"] p,
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] p,
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p {
+ color:#17344A !important;opacity:1 !important;
+}
+[data-testid="stSidebar"] [role="radiogroup"] label {background:#F5F9FB;border-radius:8px;padding:.4rem .5rem;}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {background:#D3EDF0;}
+[data-testid="stSidebar"] .stMarkdown a {color:#146C80 !important;}
+[data-testid="stMetric"] {background:#E8F3F6 !important;border:1px solid #C9E0E5 !important;box-shadow:none;border-radius:12px;}
+[data-testid="stMetricLabel"] *,
+[data-testid="stMetricDelta"] *,
+[data-testid="stMetricValue"] * {color:#17344A !important;opacity:1 !important;}
+[data-testid="stMetricValue"] {font-size:1.7rem !important;}
+[data-testid="stExpander"] {border:1px solid #D6E3E9;background:#EAF1F5 !important;}
+[data-testid="stExpander"] summary, [data-testid="stExpander"] summary p {color:#17344A !important;}
+[data-testid="stPlotlyChart"] {background:#E9F0F4 !important;border:1px solid #D8E5EA !important;box-shadow:none;}
+[data-testid="stDataFrame"] {border:1px solid #D4E1E8;border-radius:8px;}
+[data-testid="stAlert"] p {color:#17344A !important;}
+.stApp a {color:#116C7D;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -288,7 +338,7 @@ elif page == "🦠  The Bacteria":
             height=300, margin=dict(l=10,r=40,t=40,b=10),
             plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)",
         )
-        st.plotly_chart(fig_sp, use_container_width=True)
+        research_chart(fig_sp, use_container_width=True)
 
     src_df = strain_sum["Isolation source"].value_counts().reset_index()
     src_df.columns = ["source","count"]
@@ -300,7 +350,7 @@ elif page == "🦠  The Bacteria":
         ))
         fig_src.update_layout(title="Isolation source (n=22)", height=300,
                               margin=dict(t=40,b=10))
-        st.plotly_chart(fig_src, use_container_width=True)
+        research_chart(fig_src, use_container_width=True)
 
     st.caption("All 22 WGS isolates have unique NCBI assembly mappings verified against BioProject PRJNA877469 and source S1. Analysis IDs are preserved; four aliases were confirmed by the research author. WGS master and assembly accessions are shown separately.")
     with st.expander("🔍 View all 22 strains"):
@@ -357,7 +407,7 @@ elif page == "🦠  The Bacteria":
         yaxis=dict(tickfont=dict(size=10), autorange="reversed"),
         margin=dict(l=145, b=125, r=35, t=65),
     )
-    st.plotly_chart(fig_ani, use_container_width=True)
+    research_chart(fig_ani, use_container_width=True)
 
     st.markdown("""
     <div class="insight-box">
@@ -406,7 +456,7 @@ elif page == "🦠  The Bacteria":
                 xaxis_tickangle=40,
                 coloraxis_colorbar=dict(title="Mean<br>presence (%)")
             )
-            st.plotly_chart(fig_vfhm, use_container_width=True)
+            research_chart(fig_vfhm, use_container_width=True)
 
         st.markdown("""
         <div class="warning-box">
@@ -454,7 +504,7 @@ elif page == "🦠  The Bacteria":
             yaxis_title="VF categories present", xaxis_tickangle=45,
             height=320, plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=40,b=80),
         )
-        st.plotly_chart(fig_vf, use_container_width=True)
+        research_chart(fig_vf, use_container_width=True)
 
 
 # ════════════════════════════════════════════════════════════
@@ -514,7 +564,7 @@ elif page == "💊  Antibiotic Resistance":
             xaxis_title="Number of isolates", height=280,
             margin=dict(t=40,b=10), plot_bgcolor="rgba(0,0,0,0)",
             legend=dict(orientation="h", y=-0.2))
-        st.plotly_chart(fig_mdr, use_container_width=True)
+        research_chart(fig_mdr, use_container_width=True)
 
     with col_m2:
         fig_pct = go.Figure(go.Bar(
@@ -528,7 +578,7 @@ elif page == "💊  Antibiotic Resistance":
             xaxis=dict(title="MDR rate (%)", range=[0,120]),
             height=280, margin=dict(t=40,b=10,r=60),
             plot_bgcolor="rgba(0,0,0,0)")
-        st.plotly_chart(fig_pct, use_container_width=True)
+        research_chart(fig_pct, use_container_width=True)
 
     # Key resistance rates — simplified
     st.markdown('<span class="section-header">📉 Which antibiotics are they resistant to?</span>',
@@ -556,7 +606,7 @@ elif page == "💊  Antibiotic Resistance":
     fig_r.update_layout(
         yaxis_title="Resistant isolates (%)", xaxis_tickangle=45,
         height=340, plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=10,b=80))
-    st.plotly_chart(fig_r, use_container_width=True)
+    research_chart(fig_r, use_container_width=True)
 
     with st.expander("📖 Antibiotic abbreviations"):
         st.dataframe(
@@ -691,7 +741,7 @@ elif page == "💊  Antibiotic Resistance":
             margin=dict(t=110, b=30, l=110, r=30),
             plot_bgcolor="white",
         )
-        st.plotly_chart(fig_geno, use_container_width=True)
+        research_chart(fig_geno, use_container_width=True)
 
         st.caption("Later manual re-visualization of published Table 1. Gene-family descriptions below are biological context, not independently validated phenotype predictions. Gene presence does not establish resistance to every drug in a class.")
 
@@ -760,7 +810,7 @@ elif page == "💊  Antibiotic Resistance":
                 xaxis_tickangle=45, height=260,
                 plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=40,b=80),
             )
-            st.plotly_chart(fig_iso, use_container_width=True)
+            research_chart(fig_iso, use_container_width=True)
 
         st.divider()
 
@@ -811,7 +861,7 @@ elif page == "🧬  Mobile Elements & Cases":
             title="IS element copy number per strain (⭐ = case study strains)",
             xaxis_title="Total IS element copy number",
             height=500, plot_bgcolor="rgba(0,0,0,0)", margin=dict(t=50,b=10,l=120))
-        st.plotly_chart(fig_mge, use_container_width=True)
+        research_chart(fig_mge, use_container_width=True)
 
         st.divider()
 
